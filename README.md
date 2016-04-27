@@ -7,7 +7,7 @@ This covers the [RingCentral Connect Platform APIs](https://developers.ringcentr
 Current topics include:
 
 * [SMS](docs/sms.md)
-* [Fax](docs/faq.md)
+* [Fax](docs/fax.md)
 
 Please feel free to contribute by sending a pull request or make a request by creating an issue.
 
