@@ -18,12 +18,6 @@ Sending SMS via the API is covered by our [Usage Plan](https://developer.ringcen
 
 Yes. To do this, authorize your app using the Operator Extension, `101` by default and then call the API to send an SMS messsage.
 
-## Technical Questions
-
-### How do I find out which phone numbers I can use to send SMS?
-
-First, retrieve a list of phone numbers ofr the authorized extension by making an API call to the `phone-number` endpoint, for example `account/~/extension/~/phone-number`. Then filter the resulting phone numbers against the `features` property for the value `SmsSender`.
-
 ### Can I send a SMS message from another extension?
 
 You can only send SMS messages for the extension that has authorized your app.
@@ -31,3 +25,9 @@ You can only send SMS messages for the extension that has authorized your app.
 ### Can I send SMS from the main company number and also have multiple users respond to that number?
 
 Yes. To do send the SMS, authorized as the Operator Extension. To have multiple users receive inbound requests, configure the Operator Extension to point to a Call Queue with the users desired.
+
+## Technical Questions
+
+### How do I find out which phone numbers I can use to send SMS?
+
+First, retrieve a list of phone numbers ofr the authorized extension by making an API call to the `phone-number` endpoint, for example `account/~/extension/~/phone-number`. Then filter the resulting phone numbers against the `features` property for the value `SmsSender`.
