@@ -7,4 +7,4 @@ pages:
 # Introduction:
 - ['index.md', 'About', 'RingCentral FAQ']
 - ['fax.md', 'FAQ', 'Fax']
-- ['sms.md', 'SMS', 'SMS']
+- ['sms.md', 'FAQ', 'SMS']

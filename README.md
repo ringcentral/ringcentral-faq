@@ -1,4 +1,7 @@
-# RingCentral FAQ
+RingCentral FAQ
+===============
+
+[![Docs][docs-readthedocs-svg]][docs-readthedocs-link]
 
 This RingCentral Developer FAQ provides answers to commonly asked questions covering our APIs and solution suite including how our APIs interact with our endpoint applications (mobile, desktop, and web).
 
@@ -15,4 +18,7 @@ Please feel free to contribute by sending a pull request or make a request by cr
 
 Copyright (c) 2016 RingCentral. See [LICENSE][] for details.
 
-[license]:      LICENSE.md
+ [docs-readthedocs-svg]: https://img.shields.io/badge/docs-readthedocs-blue.svg
+ [docs-readthedocs-link]: http://ringcentral-faq.readthedocs.org/
+ [license]: LICENSE.md
+ 
