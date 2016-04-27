@@ -7,6 +7,8 @@ This RingCentral Developer FAQ provides answers to commonly asked questions cove
 
 This covers the [RingCentral Connect Platform APIs](https://developers.ringcentral.com).
 
+You can view a formatted version of this FAQ on [Read the Docs](http://ringcentral-faq.readthedocs.org/).
+
 Current topics include:
 
 * [SMS](docs/sms.md)
@@ -21,4 +23,3 @@ Copyright (c) 2016 RingCentral. See [LICENSE][] for details.
  [docs-readthedocs-svg]: https://img.shields.io/badge/docs-readthedocs-blue.svg
  [docs-readthedocs-link]: http://ringcentral-faq.readthedocs.org/
  [license]: LICENSE.md
- 
