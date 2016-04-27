@@ -28,6 +28,6 @@ Yes. To do send the SMS, authorized as the Operator Extension. To have multiple 
 
 ## Technical Questions
 
-### How do I find out which phone numbers I can use to send SMS?
+### How can I get a list of phone numbers that are SMS capable?
 
-First, retrieve a list of phone numbers ofr the authorized extension by making an API call to the `phone-number` endpoint, for example `account/~/extension/~/phone-number`. Then filter the resulting phone numbers against the `features` property for the value `SmsSender`.
+First, retrieve a list of phone numbers from the authorized extension by making an API call to the `phone-number` endpoint, for example `account/~/extension/~/phone-number`. Then filter the resulting phone numbers against the `features` property for the value `SmsSender`.
