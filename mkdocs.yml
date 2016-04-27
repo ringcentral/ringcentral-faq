@@ -1,0 +1,10 @@
+site_name: RingCentral Developer FAQ
+site_url: https://developers.ringcentral.com
+repo_url: https://github.com/ringcentral/ringcentral-faq
+docs_dir: docs
+theme: readthedocs
+pages:
+# Introduction:
+- ['index.md', 'About', 'RingCentral FAQ']
+- ['fax.md', 'FAQ', 'Fax']
+- ['sms.md', 'SMS', 'SMS']
