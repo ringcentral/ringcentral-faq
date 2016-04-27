@@ -5,6 +5,6 @@ docs_dir: docs
 theme: readthedocs
 pages:
 # Introduction:
-- ['index.md', 'About', 'RingCentral FAQ']
+- ['index.md', 'Overview', 'About']
 - ['fax.md', 'FAQ', 'Fax']
 - ['sms.md', 'FAQ', 'SMS']
