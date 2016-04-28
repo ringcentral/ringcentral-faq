@@ -6,7 +6,9 @@ theme: readthedocs
 pages:
 # Introduction:
 - ['index.md', 'Overview', 'About']
+- ['basics.md', 'FAQ', 'RingCentral Basics']
 - ['voice.md', 'FAQ', 'Voice']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
+- ['phone_numbers.md', 'FAQ', 'Phone Numbers']
 - ['errors.md', 'FAQ', 'Errors']
