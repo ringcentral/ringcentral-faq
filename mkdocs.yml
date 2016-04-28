@@ -7,7 +7,7 @@ pages:
 # Introduction:
 - ['index.md', 'Overview', 'About']
 - ['basics.md', 'FAQ', 'RingCentral Basics']
-- ['voice.md', 'FAQ', 'Voice']
+- ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
