@@ -1,6 +1,7 @@
 # Custom Error Codes FAQ
 
-These custom error codes are returned as part of an HTTP error response from the RingCentral API
+These custom error codes are returned as part of an HTTP error response from the RingCentral API.
+**NOTE:** This list may be out of date at times, but should still be helpful. Will update time permitting.
 
 ## What is the meaning custom error codes in this response?
 
