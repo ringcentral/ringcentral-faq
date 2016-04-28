@@ -4,6 +4,10 @@ RingCentral Fax allows you to send and receive faxes using our API as well as ou
 
 ## Features
 
+### How do I know if a fax transmission through the API succeeded?
+
+When you are sending a fax message through the FaxOut API, you can check the status of this transmission. Outgoing faxes pass through several workflow phases, so when you have just sent an API request `messageStatus` property `Queued` (this status is returned in the FaxOut API response). After some time (usually within couple of minutes) the status of the fax message will be changed to either `Sent` (which means that message was sent successfully) or to `Sending Failed`. You can call the Get Message or the Get Message List API to check the status of a particular message. The Get Message end point is provided in the `uri` property of the Send Fax response.
+
 ### Can I set the cover page "To" value?
 
 Yes. The To attribute on the cover page is set two ways. If the `to.name` property is set in the request body, that value will be used on the cover page. If it is not set, the system will create a name by concatenating the `firstName` and `lastName` attributes of the address book contact with a matching `businessFax` number attribute.
@@ -19,10 +23,6 @@ RingCentral supports 29 file types including PDF, TIFF, DOCX, DOC, XLSX, XLS, RT
 ### Is there a limit on fax file size?
 
 Fax files are limited to 20 MB or 200 pages.
-
-### How can I check the status of a fax message?
-
-Faxes are queued by RingCentral and a successful response will include the property `"messageStatus" : "Queued"`. To verify a fax has been set correctly poll the messaage store `uri` property provided in the response for an updated `messageStatus`. Upon success, the `messageStatus` property will be updated to `"messageStatus" : "Sent"`.
 
 ### How can I view sent faxes in the Service Web Portal?
 
