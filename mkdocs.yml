@@ -8,3 +8,4 @@ pages:
 - ['index.md', 'Overview', 'About']
 - ['fax.md', 'FAQ', 'Fax']
 - ['sms.md', 'FAQ', 'SMS']
+- ['errors.md', 'FAQ', 'Errors']
