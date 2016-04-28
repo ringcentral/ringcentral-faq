@@ -8,3 +8,4 @@ Topics include:
 
 * [SMS](sms.md)
 * [Fax](fax.md)
+* [Custom Error Codes](customErrorCodes.md)
