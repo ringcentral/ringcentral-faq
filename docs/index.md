@@ -6,6 +6,9 @@ This covers the [RingCentral Connect Platform APIs](https://developers.ringcentr
 
 Topics include:
 
+* [Basics](basics.md)
+* [Voice](voice.md)
 * [SMS](sms.md)
 * [Fax](fax.md)
+* [Phone Numbers](phone-numbers.md)
 * [Custom Error Codes](errors.md)

@@ -11,8 +11,11 @@ You can view a formatted version of this FAQ on [Read the Docs](http://ringcentr
 
 Current topics include:
 
+* [Basics](docs/basics.md)
+* [Voice](docs/voice.md)
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
+* [Phone Numbers](docs/phone-numbers.md)
 * [Custom Error Codes](docs/errors.md)
 
 Please feel free to contribute by sending a pull request or make a request by creating an issue.

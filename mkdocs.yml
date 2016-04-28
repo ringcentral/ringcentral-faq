@@ -6,6 +6,7 @@ theme: readthedocs
 pages:
 # Introduction:
 - ['index.md', 'Overview', 'About']
-- ['fax.md', 'FAQ', 'Fax']
+- ['voice.md', 'FAQ', 'Voice']
 - ['sms.md', 'FAQ', 'SMS']
+- ['fax.md', 'FAQ', 'Fax']
 - ['errors.md', 'FAQ', 'Errors']
