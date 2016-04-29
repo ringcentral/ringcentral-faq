@@ -8,7 +8,7 @@ The [RingCentral Platform](https://developers.ringcentral.com) offers a family o
 
 ### Where can I find SDKs, sample code and/or example apps for my language?
 
-SDKs, sample code and example apps available from RingCentral and community authors are linked from the RingCentral Developer Portal SDK page ([https://developer.ringcentral.com/library/sdks.html](https://developer.ringcentral.com/library/sdks.html)). For all official resources, developers can also go the RingCentral GitHub organization page at [https://github.com/ringcentral/]()https://github.com/ringcentral/.
+SDKs, sample code and example apps available from RingCentral and community authors are linked from the RingCentral Developer Portal SDK page ([https://developer.ringcentral.com/library/sdks.html](https://developer.ringcentral.com/library/sdks.html)). For all official resources, developers can also go the RingCentral GitHub organization page at [https://github.com/ringcentral/](https://github.com/ringcentral/).
 
 ### How do I send text messages to other colleagues within my company using RingCentral through the API?
 
