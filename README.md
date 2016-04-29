@@ -11,7 +11,7 @@ You can view a formatted version of this FAQ on [Read the Docs](http://ringcentr
 
 Current topics include:
 
-* [Basics](docs/basics.md)
+* [RingCentral Basics](docs/basics.md)
 * [Voice via RingOut](docs/voice_ringout.md)
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
