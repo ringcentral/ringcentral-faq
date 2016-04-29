@@ -6,7 +6,7 @@ This covers the [RingCentral Connect Platform APIs](https://developers.ringcentr
 
 Topics include:
 
-* [Basics](basics.md)
+* [RingCentral Basics](basics.md)
 * [Voice via RingOut](voice_ringout.md)
 * [SMS](sms.md)
 * [Fax](fax.md)
