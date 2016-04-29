@@ -13,3 +13,7 @@ If you are interested in sending text messages to your internal employees you ca
 ### How many API calls am I allowed to make per a time period?
 
 There are certain API usage plans which are applied to 3rd party applications which use the RingCentral API. These plans can vary depending on a particular API or a user’s current service plan. But in most cases our servers will reject API requests from a particular application if the request rate exceeds 30 API requests per minute. In this case the client will get an HTTP error with status code 429 “too many requests”.
+
+### Can I give someone access to all the development information with an account in our dev sandbox?
+
+There two developer resources of note, the Developer Portal (https://developers.ringcentral.com) that allows you to create and manage apps, and the Sandbox Online Account Portal (https://service.devtest.ringcentral.com) that allows you to set up accounts for testing purposes. It's possible for a developer to perform development and testing using a Sandbox Online Account Portal account along with a provided application key and application secret. However, this does not provide access to the Developer Portal which enables app creation, configuration and analytics. To login to the Developer Portal, an account on the Production Online Account Portal (https://service.ringcentral.com) is necessary and the same account is used to login to the Developer Portal.
