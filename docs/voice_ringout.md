@@ -1,4 +1,4 @@
-# Voice FAQ
+# Voice - RingOut FAQ
 
 ### How can I make an outgoing call through the API?
 

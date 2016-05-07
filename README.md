@@ -13,6 +13,7 @@ Current topics include:
 
 * [RingCentral Basics](docs/basics.md)
 * [Voice via RingOut](docs/voice_ringout.md)
+* [Voice via WebRTC](docs/voice_webrtc.md)
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
 * [Phone Numbers](docs/phone_numbers.md)
