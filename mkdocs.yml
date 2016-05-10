@@ -8,6 +8,7 @@ pages:
 - ['index.md', 'Overview', 'About']
 - ['basics.md', 'FAQ', 'RingCentral Basics']
 - ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
+- ['voice_webrtc.md', 'FAQ', 'Voice via WebRTC']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
