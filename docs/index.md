@@ -12,4 +12,5 @@ Topics include:
 * [SMS](sms.md)
 * [Fax](fax.md)
 * [Phone Numbers](phone_numbers.md)
+* [Notifications & Subscriptions](notifications_subscriptions.md)
 * [Custom Error Codes](errors.md)

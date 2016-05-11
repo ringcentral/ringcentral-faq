@@ -17,6 +17,7 @@ Current topics include:
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
 * [Phone Numbers](docs/phone_numbers.md)
+* [Notifications & Subscriptions](docs/notifications_subscriptions.md)
 * [Custom Error Codes](docs/errors.md)
 
 Please feel free to contribute by sending a pull request or make a request by creating an issue.
