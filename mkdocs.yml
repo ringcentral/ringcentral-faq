@@ -11,6 +11,6 @@ pages:
 - ['voice_webrtc.md', 'FAQ', 'Voice via WebRTC']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
-- ['notifications_subscription.md', 'FAQ', 'Notifications and Subscription']
+- ['notifications_subscriptions.md', 'FAQ', 'Notifications and Subscription']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
 - ['errors.md', 'FAQ', 'Errors']
