@@ -14,3 +14,9 @@ Topics include:
 * [Phone Numbers](phone_numbers.md)
 * [Notifications & Subscriptions](notifications_subscriptions.md)
 * [Custom Error Codes](errors.md)
+
+Additional developer resources include:
+
+* [Developer Guide](https://developer.ringcentral.com/api-docs/)
+* [API Explorer](https://developer.ringcentral.com/api-explorer/)
+* [SDKs](https://developer.ringcentral.com/library/sdks.html)
