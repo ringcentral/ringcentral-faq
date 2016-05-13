@@ -15,6 +15,7 @@ Current topics include:
 * [Voice via RingOut](docs/voice_ringout.md)
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
+* [Call-Log](docs/call_log.md)
 * [Phone Numbers](docs/phone_numbers.md)
 * [Custom Error Codes](docs/errors.md)
 

@@ -10,5 +10,6 @@ pages:
 - ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
+- ['call_log.md', 'FAQ', 'Call Log']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
 - ['errors.md', 'FAQ', 'Errors']
