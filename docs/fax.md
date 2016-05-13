@@ -85,6 +85,7 @@ https://developers.ringcentral.com/api-docs/latest/index.html#!#UsagePlanDetails
 Then do the math:
 
 > 10 (per minute) * 60 (minutes per hour) = 600 Fax messages which can be created (SENT) per **hour** using RingCentral API on the Basic plan.
+
 > 10 (per minute) * 60 (minutes per hour) * 24 (hours per day) = 14400 Fax messages which can be created (SENT) per **day** using RingCentral API on the Basic plan.
 
 We do have higher level plans available (but they require additional investigation on use-case, implementation and throttling limits by our Platform team to approve and additional costs may be involved for higher throughput).
