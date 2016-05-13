@@ -1,4 +1,4 @@
-# RingCentral FAQ
+# RingCentral Developer FAQ
 
 This [RingCentral Developer](https://developers.ringcentral.com) FAQ provides answers to commonly asked questions covering our APIs and solution suite including how our APIs interact with our endpoint applications (mobile, desktop, and web).
 
@@ -12,4 +12,11 @@ Topics include:
 * [SMS](sms.md)
 * [Fax](fax.md)
 * [Phone Numbers](phone_numbers.md)
+* [Notifications & Subscriptions](notifications_subscriptions.md)
 * [Custom Error Codes](errors.md)
+
+Additional developer resources include:
+
+* [Developer Guide](https://developer.ringcentral.com/api-docs/)
+* [API Explorer](https://developer.ringcentral.com/api-explorer/)
+* [SDKs](https://developer.ringcentral.com/library/sdks.html)

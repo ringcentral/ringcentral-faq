@@ -12,4 +12,5 @@ pages:
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
+- ['notifications_subscriptions.md', 'FAQ', 'Notifications and Subscription']
 - ['errors.md', 'FAQ', 'Errors']
