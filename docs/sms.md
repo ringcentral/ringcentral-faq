@@ -12,7 +12,7 @@ Yes. RingCentral's SMS service supports Unicode and can send SMS in any or multi
 
 ### What is the rate limit for sending SMS?
 
-Sending SMS via the API is covered by our [Usage Plan](https://developer.ringcentral.com/api-docs/latest/index.html#!#UsagePlan.html) for the *Medium* API group. There is also a current maximum rate of 50 SMS / extension. To send more than this limit, you can set up multiple extensions, each with its own SMS-enabled phone number, either as a direct number or a digital line.
+Sending SMS via the API is covered by our [Usage Plan](https://developer.ringcentral.com/api-docs/latest/index.html#!#UsagePlan.html) for the *Medium* API group. There is also a current maximum rate of 50 SMS / extension per minute. To send more than this limit, you can set up multiple extensions, each with its own SMS-enabled phone number, either as a direct number or a digital line.
 
 ### Can I send SMS as the main company phone number?
 
