@@ -72,20 +72,6 @@ If you intend the multiple fax numbers to be owned by a single production RingCe
 
 If you intend the multiple fax numbers to be owned by and associated with multiple production RingCentral Customers, then you can create multiple Sandbox Accounts to represent the multiple Production Accounts.
 
-### How many fax messages can we send (create) with the Fax API? I know RingCentral can handle 1,000 faxes an hour, the attachments cannot be more than 20 mb and we have a 200 page limit. But how can I find the per-minute or per-hour fax limit when we use an API. How do we determine that?
+### How many faxes can I send per minute or per hour via the API?
 
-Looking at our API Documentation for Message-Fax:
-https://developers.ringcentral.com/api-docs/latest/index.html#!#RefCreateFaxMessage
-
-You can see the **Usage Plan** is set to "Heavy". Refer to the Usage Plan Details in the same document to determine what the throttling limit will be:
-https://developers.ringcentral.com/api-docs/latest/index.html#!#UsagePlanDetails.html
-
-**So for Fax (Heavy) it is 10 requests / minute**
-
-Then do the math:
-
-> 10 (per minute) * 60 (minutes per hour) = 600 Fax messages which can be created (SENT) per **hour** using RingCentral API on the Basic plan.
-
-> 10 (per minute) * 60 (minutes per hour) * 24 (hours per day) = 14400 Fax messages which can be created (SENT) per **day** using RingCentral API on the Basic plan.
-
-We do have higher level plans available (but they require additional investigation on use-case, implementation and throttling limits by our Platform team to approve and additional costs may be involved for higher throughput).
+The throttling rates per API are determined by your [RingCentral API Usage Plan](https://developer.ringcentral.com/api-docs/latest/index.html#!#UsagePlan.html) and the API group for the API in question. The fax API is classified as a *Heavy* API which is set to 10 requests / minute by default so the fax rate is 10 per minute or 600 per hour. Higher rate usage plans may be avaiable to you depending on your use case. Create a support case if you wish to request an increase your sending rate.

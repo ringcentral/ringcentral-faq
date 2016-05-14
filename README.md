@@ -16,7 +16,7 @@ Current topics include:
 * [Voice via WebRTC](docs/voice_webrtc.md)
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
-* [Call-Log](docs/call_log.md)
+* [Call Log](docs/call_log.md)
 * [Phone Numbers](docs/phone_numbers.md)
 * [Notifications & Subscriptions](docs/notifications_subscriptions.md)
 * [Custom Error Codes](docs/errors.md)
