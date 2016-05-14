@@ -20,4 +20,4 @@ Call Log records have a property `result` but it's not currently possible to fil
 
 ### Why does the Active Calls API include finished calls?
 
-Active call logs API not only keeps the track of Active calls but also keeps the track of most recent calls. The recent calls stays in the Active calls for 20-40 min.
+Active call logs API not only keeps the track of Active calls but also keeps the track of most recent calls. The recent calls stays in the Active Calls for 20-40 min.
