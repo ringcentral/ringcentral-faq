@@ -11,6 +11,7 @@ Topics include:
 * [Voice via WebRTC](voice_webrtc.md)
 * [SMS](sms.md)
 * [Fax](fax.md)
+* [Call Log](call_log.md)
 * [Phone Numbers](phone_numbers.md)
 * [Notifications & Subscriptions](notifications_subscriptions.md)
 * [Custom Error Codes](errors.md)
