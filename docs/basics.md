@@ -27,8 +27,8 @@ There are two basic scenarios:
 
 ### What are the System Requirements for using the RingCentral Service and Integrations, and which browsers are supported for using these applications?
 
-RingCentral maintains a KB article, [http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/5126](http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/5126) which you can refer to for answers to this question.
+[RingCentral KB article 5126](http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/5126) covers this information which you can refer to for answers to this question.
 
 ### What version of security protocol does RingCentral support?
 
-RingCentral requires servers to support TLS version 1.2. Older browsers and API clients without TLS 1.2 support will no longer work. You can read more about our TLS requirements, how to test your browsers/API client/code for TLS 1.2 support, and language updates required to operate with our API in this [RingCentral KB Article](http://success.ringcentral.com/articles/RC_Knowledge_Article/8778?priority=10&retURL=/apex/RCSupportPortalSearchNew&type=FAQ&id=kA234000000LRL4CAO&Title=TLS+Upgrade+Notice).
+RingCentral's legacy RingOut and FaxOut APIs require servers to support TLS version 1.2. Older browsers and API clients without TLS 1.2 support will no longer work. You can read more about our TLS requirements, how to test your browsers/API client/code for TLS 1.2 support, and language updates required to operate with our API in [RingCentral KB Article 8778](http://success.ringcentral.com/articles/RC_Knowledge_Article/8778?priority=10&retURL=/apex/RCSupportPortalSearchNew&type=FAQ&id=kA234000000LRL4CAO&Title=TLS+Upgrade+Notice). The RingCentral Connect Platform APIs will be updated at a future date.
