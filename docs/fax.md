@@ -66,7 +66,7 @@ Some faxes may use unsupported features and require flattening before sending th
 
 Usually, sending faxes with the RingCentral API takes our services less than 2 minutes to send fax from the moment when the request has been successfully processed from your request(s).
  
-However the delay between moment when a fax is created in the RingCentral database (for logging and processing) and when it was sent can depend on many parameters (number of recipients, size of attached files, etc).
+However the delay between moment when a fax is created in the RingCentral database (for logging and processing) and when it was sent can depend on many parameters (number of recipients, complexity and size of attached files, etc).
 
 ## Application Configuration
 
