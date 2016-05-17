@@ -25,3 +25,10 @@ There are two basic scenarios:
 1. If you want the developer to have full access to the Developer Portal ([https://developers.ringcentral.com](https://developers.ringcentral.com)) to create and configure apps, view analytics, submit for graduation, then the user needs a production account that can be used to log into ([https://service.ringcentral.com](https://service.ringcentral.com)).
 2. If you want a developer to have access to the APIs for development and testing, but not have access to the Developer Portal, you can create a user on the sandbox account ([https://service.devtest.ringcentral.com](https://service.devtest.ringcentral.com)) and provide the developer a pre-created app key and app secret to perform development. The sandbox account user will not have access to the production Online Account Portal ([https://service.ringcentral.com](https://service.ringcentral.com)).
 
+### What are the System Requirements for using the RingCentral Service and Integrations, and which browsers are supported for using these applications?
+
+RingCentral maintains a KB article, [http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/5126](http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/5126) which you can refer to for answers to this question.
+
+### What version of security protocol does RingCentral support?
+
+RingCentral requires servers to support TLS version 1.2. Older browsers and API clients without TLS 1.2 support will no longer work. You can read more about our TLS requirements, how to test your browsers/API client/code for TLS 1.2 support, and language updates required to operate with our API in this [RingCentral KB Article](http://success.ringcentral.com/articles/RC_Knowledge_Article/8778?priority=10&retURL=/apex/RCSupportPortalSearchNew&type=FAQ&id=kA234000000LRL4CAO&Title=TLS+Upgrade+Notice).

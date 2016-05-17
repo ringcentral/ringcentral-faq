@@ -62,6 +62,12 @@ Retrieving a fax attachment file via the API will not change the read status to 
 
 Some faxes may use unsupported features and require flattening before sending them to the RingCentral API. Some PDF flattening tools include [GraphicsMagick](http://www.graphicsmagick.org/) / [ImageMagick](http://www.imagemagick.org/) and [Ghostscript](http://www.ghostscript.com/).
 
+### What is causing the delay in delivery of my faxes?
+
+Usually, sending faxes with the RingCentral API takes our services less than 2 minutes to send fax from the moment when the request has been successfully processed from your request(s).
+ 
+However the delay between moment when a fax is created in the RingCentral database (for logging and processing) and when it was sent can depend on many parameters (number of recipients, size of attached files, etc).
+
 ## Application Configuration
 
 ### Do I need multple sandbox accounts to support multiple fax numbers?
