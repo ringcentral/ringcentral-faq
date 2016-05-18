@@ -14,6 +14,7 @@ Current topics include:
 * [RingCentral Basics](docs/basics.md)
 * [Voice via RingOut](docs/voice_ringout.md)
 * [Voice via WebRTC](docs/voice_webrtc.md)
+* [Voice Call Recordings](docs/voice_recording.md)
 * [SMS](docs/sms.md)
 * [Fax](docs/fax.md)
 * [Call Log](docs/call_log.md)
