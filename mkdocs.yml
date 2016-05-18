@@ -9,6 +9,7 @@ pages:
 - ['basics.md', 'FAQ', 'RingCentral Basics']
 - ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
 - ['voice_webrtc.md', 'FAQ', 'Voice via WebRTC']
+- ['voice_recording.md', 'FAQ', 'Voice Call Recordings']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
 - ['call_log.md', 'FAQ', 'Call Log']

@@ -9,6 +9,7 @@ Topics include:
 * [RingCentral Basics](basics.md)
 * [Voice via RingOut](voice_ringout.md)
 * [Voice via WebRTC](voice_webrtc.md)
+* [Voice Call Recordings](voice_recording.md)
 * [SMS](sms.md)
 * [Fax](fax.md)
 * [Call Log](call_log.md)
