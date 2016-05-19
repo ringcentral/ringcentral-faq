@@ -7,6 +7,7 @@ pages:
 # Introduction:
 - ['index.md', 'Overview', 'About']
 - ['basics.md', 'FAQ', 'RingCentral Basics']
+- ['oauth.md', 'FAQ', 'OAuth']
 - ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
 - ['voice_webrtc.md', 'FAQ', 'Voice via WebRTC']
 - ['voice_recording.md', 'FAQ', 'Voice Call Recordings']

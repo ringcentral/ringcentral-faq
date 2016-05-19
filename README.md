@@ -12,6 +12,7 @@ You can view a formatted version of this FAQ on [Read the Docs](http://ringcentr
 Current topics include:
 
 * [RingCentral Basics](docs/basics.md)
+* [OAuth Basics](docs/oauth.md)
 * [Voice via RingOut](docs/voice_ringout.md)
 * [Voice via WebRTC](docs/voice_webrtc.md)
 * [Voice Call Recordings](docs/voice_recording.md)
