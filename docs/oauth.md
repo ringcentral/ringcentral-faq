@@ -8,9 +8,7 @@ The error "unauthorized for grant type" occurs when your application is attempti
 
 ### Where can I find example code that implements Authorization Code Flow?
 
-For information on the Authorization Code Flow, please see this [Developer Community post](https://devcommunity.ringcentral.com/ringcentraldev/topics/using-oauth-2-0-authorization-code-grant-to-access-ringcentral-apis).
-
-We have sample demos in a few programming languages including JavaScript, C#, Python, Ruby, etc. in the [`ringcentral-demos-oauth` repo](https://github.com/grokify/ringcentral-demos-oauth).
+For information on the Authorization Code Flow, please see this [Developer Community post](https://devcommunity.ringcentral.com/ringcentraldev/topics/using-oauth-2-0-authorization-code-grant-to-access-ringcentral-apis). Sample demos in a few programming languages including JavaScript, C#, Python, Ruby, etc. are available in the [`ringcentral-demos-oauth` repo](https://github.com/grokify/ringcentral-demos-oauth).
 
 ### How many simultaneous OAuth sessions can my application support?
 
