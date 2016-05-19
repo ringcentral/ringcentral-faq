@@ -68,6 +68,14 @@ Usually, sending faxes with the RingCentral API takes our services less than 2 m
  
 However the delay between moment when a fax is created in the RingCentral database (for logging and processing) and when it was sent can depend on many parameters (number of recipients, complexity and size of attached files, etc).
 
+### My faxes are in Outbox and the API response is "No call time. You did not have enough available Calling Credits to send this fax"  what next ?
+
+We provide a stipulated call minutes against all sandbox accounts. But, when you see the error stating "You did not have enough available Calling Credits to send this fax" , it clearly means your application has consumed all the Call Minutes on your sandbox account.  
+
+What Next ? 
+The call minutes on your account would get auto filled after 30 days of your signup on the Developer Platform. 
+
+
 ## Application Configuration
 
 ### Do I need multple sandbox accounts to support multiple fax numbers?
