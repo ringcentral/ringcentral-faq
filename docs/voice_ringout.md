@@ -1,5 +1,7 @@
 # Voice - RingOut FAQ
 
+## General
+
 ### How can I make an outgoing call through the API?
 
 An outgoing call can be made programmatically using the RingOut API and WebRTC.
@@ -8,15 +10,11 @@ An outgoing call can be made programmatically using the RingOut API and WebRTC.
 
 The RingOut capability enables users to make calls connecting two phone numbers using a RingCentral account, one for the user and another for the number being called. Form an API perspective, RingOut is useful when you want to connect any two phones without any programmability for the phones themselves. When using a web browser, WebRTC is a useful alternative. RingOut is designed to work with outside numbers (not RingCentral numbers) but has also been used with RingCentral numbers. In addition to the API, RingOut is supported in RingCentral's softphone, web and mobile applications.
 
-### How can I ensure RingOut is working?
+## Making Calls
 
-1. Make sure either a Digital Line or a Direct Number is associated with an extension.
-1. To add a direct number to an extension see: https://www.youtube.com/watch?v=Uxv0KlnMZZM                 
-1. To add a Digital Line to an extension see: http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/How-to-Assign-an-Existing-Digital-Line-to-a-different-extension
-1. Please note that your sandbox number has been assigned the default extension (101) however you should assign either a direct / digital line inorder to make/receive a ringout call on the sandbox number.    
-1. Login to the extension on the “RingCentral for Desktop” application before you initiate a RingOut.
-1. If the extension is a “From” number then during the first leg of the ringout the “To” number would be displayed and once you dial `1` the second leg of the call would be initiated.
-1. The same is the case if the extension is a “To” number. 
+### When making outbound calls via RingOut, how can I set the caller ID?
+
+The RingOut API does not currently support programmatic setting of the caller ID property. However, it does use the configurable property in the [Online Account Portal](https://service.ringcentral.com) called "RingOut from Web" which can be set by going to `Settings` > `Outbound Caller ID` > `By Feature` > `RingOut from Web`. To set the caller ID to any company number, consider using our [WebRTC](voice_webrtc.md) capability.
 
 ### How can I check the status of a RingOut in progress?
 
@@ -41,6 +39,8 @@ Deleting the RingOut is only available when the RingOut has been initiated and t
 * If you initiate a RingOut and immediately call the `DELETE` RingOut API Endpoint, the call would get hangup as long as the RingOut between the two parties is not connected (first leg has not been established) 
 * If the first leg of the call has been initiated, then the `DELETE` API will not hangup the call.
 
+## Integrations
+
 ### How can I create an Inbound Screen Pop for a CRM, Helpdesk or similar app?
 
 An inbound screen pop can be created to provide more information about a caller by leveraging the incoming call caller ID associated to bring up additional information about that user, whether that information is in a CRM, Helpdesk or other application. There are two popular approaches for this:
@@ -48,6 +48,14 @@ An inbound screen pop can be created to provide more information about a caller 
 1. Out-of-the-Box Softphone Integration: When using the RingCentral softphone, it can be configured to launch an application and provide it with the caller ID. A common approach with web applications is to launch a URL that includes the caller ID. In this case, the web application just needs to have a contact page that can be retrieved via the caller's phone number in the URL. The RingCentral component of this is described in more detailed in the [RingCentral for Desktop User Guide](http://netstorage.ringcentral.com/guides/rc_for_desktop_user_guide.pdf) under `Settings` > `General` > `Launch an external app or a URL on incoming call`.
 2. Custom Integration: To create a deeper, custom integration, without reliance on the softphone, developers can by [subscribing for notifications](https://developer.ringcentral.com/api-docs/latest/index.html#!#Notifications.html) which will send events with for incoming calls with the caller ID information which can be used to take action. These subscriptions can occur on the client or the server after which the app can bring up a webpage or a dialog or chat window for the incoming call for the user. A call end event is also provided so the app will know and can instruct the user to take actions such as filling out call notes, etc.
 
-### When making outbound calls via RingOut, how can I set the caller ID?
+## Troubleshooting
 
-The RingOut API does not currently support programmatic setting of the caller ID property. However, it does use the configurable property in the [Online Account Portal](https://service.ringcentral.com) called "RingOut from Web" which can be set by going to `Settings` > `Outbound Caller ID` > `By Feature` > `RingOut from Web`. To set the caller ID to any company number, consider using our [WebRTC](voice_webrtc.md) capability.
+### How can I ensure RingOut is working?
+
+1. Make sure either a Digital Line or a Direct Number is associated with an extension.
+1. To add a direct number to an extension see: https://www.youtube.com/watch?v=Uxv0KlnMZZM                 
+1. To add a Digital Line to an extension see: http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/How-to-Assign-an-Existing-Digital-Line-to-a-different-extension
+1. Please note that your sandbox number has been assigned the default extension (101) however you should assign either a direct / digital line inorder to make/receive a ringout call on the sandbox number.    
+1. Login to the extension on the “RingCentral for Desktop” application before you initiate a RingOut.
+1. If the extension is a “From” number then during the first leg of the ringout the “To” number would be displayed and once you dial `1` the second leg of the call would be initiated.
+1. The same is the case if the extension is a “To” number. 
