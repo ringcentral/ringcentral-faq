@@ -1,5 +1,11 @@
 # Voice - WebRTC FAQ
 
+## General
+
+### Is WebRTC traffic encrypted?
+
+Yes. All WebRTC communication using RingCentral is encrypted in transit.
+
 ### Does WebRTC include Call Control API support?
 
 Yes. With WebRTC you can take control of the call with the following capabilities: initiate call, accept incoming call, adding callees via DTMF, hold / unhold, mute / unmute, park, flip, transfer, forward calls, start / stop recording and barge/whisper. These are documented in the [`ringcentral-web-phone` WebRTC SDK](https://github.com/ringcentral/ringcentral-web-phone).

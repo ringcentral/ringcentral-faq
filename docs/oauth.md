@@ -2,22 +2,16 @@
 
 ## General
 
-### Why do i get "unauthorized for this grant type" error, when i try to login using RingCentral oAuth endpoint ?
+### Why does OAuth return "unauthorized for this grant type" error?
 
-The error "UnAuthorized for grant type" is because your application is not following the Authorization Code Flow for logging in. 
+The error "unauthorized for grant type" occurs when your application is attempting to use an OAuth grant type that it is not approved to use. This often happens when your app requires the Authorization Code Flow but is attempting to use the Password Flow. See below for information in implementing Authorization Code Flow. For more information see [this Developer Community article](https://devcommunity.ringcentral.com/ringcentraldev/topics/unauthorized-for-this-grant-type-error).
 
-We have a sample demo in a few Programming Languages like JS, C#, Python and Ruby etc. For more information, please do take a look at our developer community post to assist you more here : 
-https://devcommunity.ringcentral.com/ringcentraldev/topics/using-oauth-2-0-authorization-code-grant-to-access-ringcentral-apis 
-Here’s the link to the Oauth Demo’s to implement the Authorization Code Flow within your application : https://github.com/grokify/ringcentral-demos-oauth
+### Where can I find example code that implements Authorization Code Flow?
 
-Please take a look at our Developer Community Article for more information : https://devcommunity.ringcentral.com/ringcentraldev/topics/unauthorized-for-this-grant-type-error 
+For information on the Authorization Code Flow, please see this [Developer Community post](https://devcommunity.ringcentral.com/ringcentraldev/topics/using-oauth-2-0-authorization-code-grant-to-access-ringcentral-apis).
 
-### Where could i find Demo application to implement Authorization Code Flow ?
+We have sample demos in a few programming languages including JavaScript, C#, Python, Ruby, etc. in the [`ringcentral-demos-oauth` repo](https://github.com/grokify/ringcentral-demos-oauth).
 
-For sample Demo's to implement Authorization Code flow within your application, kindly take a look at the repository below :
-https://github.com/grokify/ringcentral-demos-oauth
+### How many simultaneous OAuth sessions can my application support?
 
-### How many simultaneous oAuth sessions can my application support ?
-
-You can have upto 5 simultaneous oAuth sessions ***Per User Per Application***
-
+You can have up to 5 simultaneous OAuth sessions per user per application.
