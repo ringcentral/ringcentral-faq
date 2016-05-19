@@ -1,4 +1,4 @@
-# Oauth FAQ
+# Authentication & Authorization FAQ
 
 ## General
 
