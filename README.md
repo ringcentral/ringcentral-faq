@@ -12,6 +12,7 @@ You can view a formatted version of this FAQ on [Read the Docs](http://ringcentr
 Current topics include:
 
 * [RingCentral Basics](docs/basics.md)
+* [API Usage Plans](docs/api_usage_plan.md)
 * [Authentication & Authorization](docs/oauth.md)
 * [Voice via RingOut](docs/voice_ringout.md)
 * [Voice via WebRTC](docs/voice_webrtc.md)
@@ -22,7 +23,6 @@ Current topics include:
 * [Phone Numbers](docs/phone_numbers.md)
 * [Notifications & Subscriptions](docs/notifications_subscriptions.md)
 * [Custom Error Codes](docs/errors.md)
-* [API Usage Plan ](docs/api_usage_plan.md)
 
 Please feel free to contribute by sending a pull request or make a request by creating an issue.
 
