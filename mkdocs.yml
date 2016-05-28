@@ -13,6 +13,7 @@ pages:
 - ['voice_recording.md', 'FAQ', 'Voice Call Recordings']
 - ['sms.md', 'FAQ', 'SMS']
 - ['fax.md', 'FAQ', 'Fax']
+- ['api_usage_plan.md', 'FAQ', 'API Usage Plan']
 - ['call_log.md', 'FAQ', 'Call Log']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
 - ['notifications_subscriptions.md', 'FAQ', 'Notifications & Subscription']
