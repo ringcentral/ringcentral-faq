@@ -1,18 +1,23 @@
-#Usage Plan FAQ
+# Usage Plan FAQ
 
-### What is usage plan?
-The Usage Plan is a scheme specifying limits of using the API resources. Applying usage plans enables consistent load allocation through correct interaction with RingCentral Connect Platform.
+## General
 
-### How many requests of each API group the usage plan support?
+### What are my API rate limits?
 
-Each usage plan features rates specifying how many requests to each API group are allowed. Currently four API groups are distinguished: Light,Medium, Heavy, Auth . Each request in API Reference is marked as heavy, medium, light or auth under the header Usage Plan Group. Each one inform you how many requests of each API group the usage plan supports and what is the time frame in seconds for every request.
+Every app is assigned to a Usage Plan which specifies the API rate limits. API rate limits ar specified per API group. Each API is assigned to to an API group and the combination of usage plan and API group determines the API rate limit. The actual limits for your app are listed in the Developer Portal app page under `Rate Limits`.
 
-### Does the  Rate Limit (Requests per Min - RPM) apply for API Group or for an API End Point?
+### What is a Usage Plan?
 
- Rate Limits is per API Group. Explaination is as below:
+A Usage Plan is a set of API rate limits per API group. Every application is assigned a usage plan which enables consistent and efficient load allocation through correct use of the RingCentral Connect Platform.
 
- The /call-log api and  /active-calls api belongs to Heavy API group. For Basic Usage Plan we allow only 10 RPM for Heavy API group.
+### What is an API Usage Plan Group?
 
- If your application is using both /call-log and /active-calls APIs , you can only make 10 RPM of these APIs collectively and should not be considered as 10 API calls or /call-log and 10 API calls for /active-calls (not per API endpoint).
+RingCentral APIs are categorized by Usage Plan API Group which includes the following categories: `Light`, `Medium`, `Heavy`, and `Auth`.
 
-  If you exceed these limitations the server returns the 429 Too Many Requests HTTP error code. It means that the client is throttled by the server due to high request rate. Specific retry period in seconds, after which the requests can be sent, is specified in Retry-After response header.
+### Does the rate limit apply to all API in an API group or for a single API endpoint?
+
+Rate Limits is per API group. If your app is accessing multiple endpoints in the same API group, the requests are cumulative across endpoints. For example, if your app as a limit of 10 requests per minute for `Heavy` APIs and you make 5 each requests across 2 `Heavy` endpoints, you will be at your 10 requests per minute limit.
+
+### What happens if my app exceeds its rate limit?
+
+If you exceed the API rate limit, the server will return the 429 HTTP error status code indicating Too Many Requests. This means that the client is being throttled by the server due to high request rate. The `Retry-After` response header will specify the number of seconds that should elapse before your app can make requests again.

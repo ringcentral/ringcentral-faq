@@ -7,6 +7,7 @@ This covers the [RingCentral Connect Platform APIs](https://developers.ringcentr
 Topics include:
 
 * [RingCentral Basics](basics.md)
+* [API Usage Plans](api_usage_plan.md)
 * [Authentication & Authorization](oauth.md)
 * [Voice via RingOut](voice_ringout.md)
 * [Voice via WebRTC](voice_webrtc.md)
