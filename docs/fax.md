@@ -4,9 +4,9 @@ RingCentral Fax allows you to send and receive faxes using our API as well as ou
 
 ## General
 
-### User Fax FAQ
+### What are the general questions about fax?
 
-You can find some of the important User Fax Service FAQs [here](http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/7027).
+General information about the RingCentral fax service can be found on the End-User Fax Service FAQ [here](http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/7027).
 
 ### How do I know if a fax transmission through the API succeeded?
 
