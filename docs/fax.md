@@ -2,7 +2,11 @@
 
 RingCentral Fax allows you to send and receive faxes using our API as well as our endpoint apps including RC mobile apps and Online Account Portal.
 
-## Features
+## General
+
+### User Fax FAQ
+
+You can find some of the important User Fax Service FAQs [here](http://success.ringcentral.com/articles/en_US/RC_Knowledge_Article/7027).
 
 ### How do I know if a fax transmission through the API succeeded?
 
@@ -65,7 +69,7 @@ Some faxes may use unsupported features and require flattening before sending th
 ### What is causing the delay in delivery of my faxes?
 
 Usually, sending faxes with the RingCentral API takes our services less than 2 minutes to send fax from the moment when the request has been successfully processed from your request(s).
- 
+
 However the delay between moment when a fax is created in the RingCentral database (for logging and processing) and when it was sent can depend on many parameters (number of recipients, complexity and size of attached files, etc).
 
 ### When sending a fax, what does the API error "No call time. You did not have enough available Calling Credits to send this fax" mean?

@@ -22,6 +22,7 @@ Current topics include:
 * [Phone Numbers](docs/phone_numbers.md)
 * [Notifications & Subscriptions](docs/notifications_subscriptions.md)
 * [Custom Error Codes](docs/errors.md)
+* [API Usage Plan ](docs/api_usage_plan.md)
 
 Please feel free to contribute by sending a pull request or make a request by creating an issue.
 
