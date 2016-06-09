@@ -35,13 +35,13 @@ RingCentral's legacy RingOut and FaxOut APIs require servers to support TLS vers
 
 ### How do I get my app into Production?
 
-The [RingCentral Developer Portal](https://developers.ringcentral.com) contains information on the graduation status and readiness of your application. In your app page, your app's status is presented on the `Status &amp; Review` view with related API call information in the `Analytics` view. Summaries of both of these are presented at the top level `Dashboard` view. For step-by-step instructions:
+The [RingCentral Developer Portal](https://developers.ringcentral.com) contains information on the graduation status and readiness of your application. In your app page, your app's status is presented on the `Status & Review` view with related API call information in the `Analytics` view. Summaries of both of these are presented at the top level `Dashboard` view. For step-by-step instructions:
 
 1. Login to the [RingCentral Developer Portal](https://developer.ringcentral.com).
 2. Navigate to your desired application by selecting it from the `My Apps` menu bar item or from the `All applications` app list.
 3. The `Dashboard` view of your Application page in Developer Portal contains summary information including a section named `Production Status`. The content in this will provide you with a quick pulse on where your application is in the development process as it relates to Production access.
-4. Click on `Status &amp; Review` to see a more detailed graduation information where the `graduation requirements` link of #3 above is referenced.
-5. This `Status &amp; Review` view contains two sections: `Production Status` (same from Dashboard view), and the `Graduation Requirements` section. This section provides you with a detailed list of our Production Access Criteria, and how it relates to the current state of your application.
+4. Click on `Status & Review` to see a more detailed graduation information where the `graduation requirements` link of #3 above is referenced.
+5. This `Status & Review` view contains two sections: `Production Status` (same from Dashboard view), and the `Graduation Requirements` section. This section provides you with a detailed list of our Production Access Criteria, and how it relates to the current state of your application.
 6. If the button named "Apply for Production" is __greyed out__ it is because your application has not yet met our Production Access Criteria. Please review the 'status' of each rule that is failing and resolve the issue within your application code.
 7. Note that the data in this view may be cached, but there is a 'refresh' icon you can use to update the state of the review data.
 8. If you feel that your application has met all of the rules, but you are still unable to "Apply for Production", please submit a Developer Support Case.
