@@ -14,4 +14,4 @@ The `Parameter [deliveryMode.address] value is invalid` error indicates that Rin
 
 ### How can I verify if SSL/TLS is configured propery for my webhook?
 
-There are a number of requirements for SSL/TLS to work properly including: must be enabled on web service, must change to a trusted CA certificate, must use supported algorithms, etc. To test your site, use the SSL Shopper SSL Checker service at: [https://www.sslshopper.com/ssl-checker.html](https://www.sslshopper.com/ssl-checker.html).
+There are a number of requirements for SSL/TLS to work properly including that it must be enabled on web service, must have a certificate that chains to a trusted CA certificate, must use supported algorithms, etc. To test your site, use the SSL Shopper SSL Checker service at: [https://www.sslshopper.com/ssl-checker.html](https://www.sslshopper.com/ssl-checker.html).
