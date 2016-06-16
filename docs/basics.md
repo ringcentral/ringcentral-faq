@@ -46,3 +46,9 @@ The [RingCentral Developer Portal](https://developers.ringcentral.com) contains 
 7. Note that the data in this view may be cached, but there is a 'refresh' icon you can use to update the state of the review data.
 8. If you feel that your application has met all of the rules, but you are still unable to "Apply for Production", please submit a Developer Support Case.
 9. We process requests for production each workday and address all requests from the previous day(s).
+
+## Troubleshooting
+
+### When should I retry when receiving a 503 CMN-211 `MaintenanceMode` "Service is overloaded, please retry later" error?
+
+The amount of time to wait before retrying the request is the number of seconds provided in the `Retry-After` HTTP response header. Often times, the retry after time is no longer than 10-15 seconds.
