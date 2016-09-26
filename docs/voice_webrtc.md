@@ -22,6 +22,6 @@ Yes. You will need to supply your own area-code matching algorithm, but as long 
 
 Yes. Voice calls via WebRTC, RingOut and RingCentral endpoints are all captured via the event system. To check the presence status of an extension, you can call the extension presence API endpoint or subscribe to presence events via the subscription API or webhoks API.
 
-### Can a browser-based app support boty RingOut and WebRTC?
+### Can a single browser-based app support both RingOut and WebRTC?
 
 Yes. RingOut and WebRTC are two different ways to connect voice calls and both can be supported in single web app without authenticating each time. To do this using the [RingCentral JavaScript SDK](https://github.com/ringcentral/ringcentral-js) have the user authorize with the JavaScript SDK and then pass in the JavaScript SDK when instantiating the [RingCentral WebRTC WebPhone SDK](https://github.com/ringcentral/ringcentral-web-phone). An example implementaiton of this is the [RingCentral for Google browser app](https://developers.ringcentral.com/app-gallery.html/app/312709020-312709020-7gufiGT3T3CCuCP37hMDaQ~KiLR9gZ-TTS5mivQ8TGEqQ-1210).
