@@ -1,5 +1,9 @@
 # Voice - Call Recording FAQ
 
+### How can I enable call recording?
+
+RingCentral supports both Automatic Call Recording (ACR) and On-Demand Call Recording. Information on how to initiate Automatic and On-Demand Call Recording is available in [KB Article 3171](http://success.ringcentral.com/articles/RC_Knowledge_Article/How-to-Initiate-On-Demand-Call-Recordings). Using WebRTC, it's also possible to programmatically initiate and stop recording per the [WebRTC documentation](https://github.com/ringcentral/ringcentral-web-phone).
+
 ### How can I access my recordings?
 
 When a call recording exists in the system, there will be a `recording` property with a `uri` property that can be used to retrieve or stream the recording.
@@ -11,3 +15,7 @@ The number of call recordings an account can hold is specified in [RingCentral K
 ### Will a call recording link in the call log be removed when it is deleted?
 
 Yes, when a call recording is deleted from the system, the call-log record may still exist. If it does, the recording property will be removed at that time.
+
+### Is there a way to be notified when new recordings are available?
+
+Not at this time. We have notifications for calls via the presence event filter but not specifically for call recordings. To check for new call recordings, apps can poll the `call-log` endpoint with the `withRecording` query parameter set to `True`.
