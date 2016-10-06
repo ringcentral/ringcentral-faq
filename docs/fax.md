@@ -48,6 +48,10 @@ If a fax transmission fails, the reason is reported in the Call Log Record's `re
 
 Not at this time. In the US, it is unlawful to send a fax with out the header line consisting of the following "the date and time it is sent and an identification of the business, other entity, or individual sending the message and the telephone number of the sending machine or of such business, other entity, or individual." This applies to all faxes based on content and delivery method (e-fax or traditional fax machines). This is specified in [US 47 CFR &#167; 68.318(d)](https://www.law.cornell.edu/cfr/text/47/68.318). For advertising specifically, this is also covered under the Telephone Consumer Protection Act of 1991 (TCPA), [47 USC &#167; 227(d)(1)(B)](https://www.law.cornell.edu/uscode/text/47/227).
 
+### Is it possible to receive faxes via API?
+
+Yes. When a fax is sent to a RingCentral number, received faxes can be accessed via the RingCentral API's `message-store` endpoint. To retrieve a list of incoming faxes, call the `message-store` endpoint with `messageType=Fax` and `direction=Inbound` to return a list of fax data that can be used to retrieve fax media in PDF or TIFF format.
+
 ## Technical Questions
 
 ### Is providing a filename in the Content-Disposition header necessary?
