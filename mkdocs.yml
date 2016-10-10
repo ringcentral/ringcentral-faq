@@ -1,8 +1,11 @@
 site_name: RingCentral Developer FAQ
 site_url: https://developers.ringcentral.com
+site_favicon: favicon.ico
 repo_url: https://github.com/ringcentral/ringcentral-faq
 docs_dir: docs
 theme: readthedocs
+extra_css: [extra.css]
+extra_javascript: [fonts.js]
 pages:
 # Introduction:
 - ['index.md', 'Overview', 'About']
