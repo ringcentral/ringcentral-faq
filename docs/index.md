@@ -1,6 +1,6 @@
-# RingCentral Developer FAQ
+![RingCentral Developers](ringcentral-developers_1000x89.png)
 
-![RingCentral Developers](ringcentral-developers_500x45.png)
+# RingCentral Developer FAQ
 
 This [RingCentral Developer](https://developers.ringcentral.com) FAQ provides answers to commonly asked questions covering our APIs and solution suite including how our APIs interact with our endpoint applications (mobile, desktop, and web).
 
