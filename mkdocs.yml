@@ -11,6 +11,7 @@ pages:
 - ['index.md', 'Overview', 'About']
 - ['basics.md', 'FAQ', 'RingCentral Basics']
 - ['oauth.md', 'FAQ', 'Authentication & Authorization']
+- ['account.md', 'FAQ', 'Account Info']
 - ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
 - ['voice_webrtc.md', 'FAQ', 'Voice via WebRTC']
 - ['voice_recording.md', 'FAQ', 'Voice Call Recordings']
