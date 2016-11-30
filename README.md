@@ -14,6 +14,7 @@ Current topics include:
 * [RingCentral Basics](docs/basics.md)
 * [API Usage Plans](docs/api_usage_plan.md)
 * [Authentication & Authorization](docs/oauth.md)
+* [Account Info](docs/account.md)
 * [Voice via RingOut](docs/voice_ringout.md)
 * [Voice via WebRTC](docs/voice_webrtc.md)
 * [Voice Call Recordings](docs/voice_recording.md)

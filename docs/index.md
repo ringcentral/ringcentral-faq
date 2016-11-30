@@ -11,6 +11,7 @@ Topics include:
 * [RingCentral Basics](basics.md)
 * [API Usage Plans](api_usage_plan.md)
 * [Authentication & Authorization](oauth.md)
+* [Account Info](account.md)
 * [Voice via RingOut](voice_ringout.md)
 * [Voice via WebRTC](voice_webrtc.md)
 * [Voice Call Recordings](voice_recording.md)
