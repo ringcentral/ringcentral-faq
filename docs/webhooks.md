@@ -12,4 +12,4 @@ There are a number of requirements for SSL/TLS to work properly including that i
 
 ### What does error SUB-525, "WebHook server response is invalid", mean?
 
-This error means that there is a problemw ith your WebHook server URL. It must meet the requirements stated in the [Developer Guide](http://ringcentral-api-docs.readthedocs.io/en/latest/webhooks/).
+This error means that there is a problemw ith your WebHook server URL. It must meet the requirements stated in the [Developer Guide for Webhooks](http://ringcentral-api-docs.readthedocs.io/en/latest/webhooks/).
