@@ -21,4 +21,5 @@ pages:
 - ['call_log.md', 'FAQ', 'Call Log']
 - ['phone_numbers.md', 'FAQ', 'Phone Numbers']
 - ['notifications_subscriptions.md', 'FAQ', 'Notifications & Subscription']
+- ['webhooks.md', 'FAQ', 'Webhooks']
 - ['errors.md', 'FAQ', 'Errors']
