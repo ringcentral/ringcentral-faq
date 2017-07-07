@@ -52,6 +52,10 @@ Not at this time. In the US, it is unlawful to send a fax with out the header li
 
 Yes. When a fax is sent to a RingCentral number, received faxes can be accessed via the RingCentral API's `message-store` endpoint. To retrieve a list of incoming faxes, call the `message-store` endpoint with `messageType=Fax` and `direction=Inbound` to return a list of fax data that can be used to retrieve fax media in PDF or TIFF format.
 
+### How long are my sent faxes stored?
+
+Sent faxes are stored for 30 days. Additional information is available in [RingCentral KB 1894](https://success.ringcentral.com/articles/RC_Knowledge_Article/2178).
+
 ## Technical Questions
 
 ### Is providing a filename in the Content-Disposition header necessary?
