@@ -54,7 +54,7 @@ Yes. When a fax is sent to a RingCentral number, received faxes can be accessed 
 
 ### How long are my sent faxes stored?
 
-Sent faxes are stored for 30 days. Additional information is available in [RingCentral KB 1894](https://success.ringcentral.com/articles/RC_Knowledge_Article/2178).
+Sent faxes are stored for 30 days. Additional information is available in [RingCentral KB 1894](https://success.ringcentral.com/articles/RC_Knowledge_Article/2178). To retrieve your sent faxes, you can use the [RingCentral Message Store API](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefMessageList.html) or the [RingCentral Archiver](https://developer.ringcentral.com/app-gallery.html/app/312709020-312709020-7gufiGT3T3CCuCP37hMDaQ~4TkBPW7ETPi3SEzIj4gUXQ-1210?_ga=2.87486040.1924527089.1499293522-1174061982.1498551437) service.
 
 ## Technical Questions
 
