@@ -2,9 +2,9 @@
 
 ## General
 
-### Is WebRTC traffic encrypted?
+### Does RingCentral WebRTC Support HD Voice?
 
-Yes. All WebRTC communication using RingCentral is encrypted in transit.
+Yes. If your account has [HD Voice](https://success.ringcentral.com/articles/RC_Knowledge_Article/7714), it will be supported for WebRTC. See [KB Article 7733](https://success.ringcentral.com/articles/RC_Knowledge_Article/7733) on enabling HD Voice wideband codecs on your device.
 
 ### Does WebRTC include Call Control API support?
 
@@ -21,6 +21,10 @@ Yes. You will need to supply your own area-code matching algorithm, but as long 
 ### Are WebRTC call events captured via the event system?
 
 Yes. Voice calls via WebRTC, RingOut and RingCentral endpoints are all captured via the event system. To check the presence status of an extension, you can call the extension presence API endpoint or subscribe to presence events via the subscription API or webhoks API.
+
+### Is WebRTC traffic encrypted?
+
+Yes. All WebRTC communication using RingCentral is encrypted in transit.
 
 ### Can a single browser-based app support both RingOut and WebRTC?
 
