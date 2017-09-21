@@ -24,6 +24,10 @@ Yes. Just add each file as a MIME part. You can mix and match different MIME typ
 
 RingCentral supports 29 file types including PDF, TIFF, DOCX, DOC, XLSX, XLS, RTF, HTML, XML and many more. These are listed in the [API Developer Guide](https://developers.ringcentral.com/api-docs/) along with the accepted MIME types.
 
+### Are inline images supported for HTML files?
+
+Inline images using Data URIs in the image tag and CSS properties are not supported yet. To use images in HTML files, please use links.
+
 ### Is there a limit on fax file size?
 
 Fax files are limited to 20 MB or 200 pages.
