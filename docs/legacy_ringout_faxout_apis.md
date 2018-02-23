@@ -6,7 +6,7 @@
 
 The legacy RingOut List API returns a list of phone numbers to use as the `from` value in the RingOut API call. To retrieve a list of phone numbers you can use for RingOut using the REST API, call the following endpoint:
 
-`GET /restapi/v1.0/account/~/extension/~/forwarding-numbers`
+`GET /restapi/v1.0/account/{accountId}/extension/{extensionId}/forwarding-number`
 
 In the response, filter the phone number `records` array for the `CallForwarding` value in the `features` property. The phone numbers are in the `phoneNumber` property.
 
