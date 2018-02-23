@@ -22,6 +22,7 @@ Topics include:
 * [Notifications & Subscriptions](notifications_subscriptions.md)
 * [Mobile Apps](mobile.md)
 * [Custom Error Codes](errors.md)
+* [Upgrading from Legacy APIs](legacy_ringout_faxout_apis.md)
 
 Additional developer resources include:
 
