@@ -12,7 +12,7 @@ In the response, filter the phone number `records` array for the `CallForwarding
 
 More information on this API is available here:
 
-https://developer.ringcentral.com/api-docs/latest/index.html#!#RefExtensionForwardingNumbers.html
+[https://developer.ringcentral.com/api-docs/latest/index.html#!#RefExtensionForwardingNumbers.html](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefExtensionForwardingNumbers.html)
 
 ### How do I Upgrade the RingOut.asp Call API to the REST API?
 
@@ -22,7 +22,7 @@ The legacy RingOut Call API performs a two-legged RingOut. To make the same call
 
 More information on this API is available here:
 
-https://developer.ringcentral.com/api-docs/latest/index.html#!#RefMakeRingOut
+[https://developer.ringcentral.com/api-docs/latest/index.html#!#RefMakeRingOut](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefMakeRingOut)
 
 ### How do I Upgrade the RingOut.asp Status API to the REST API?
 
@@ -32,7 +32,7 @@ The legacy RingOut Status API looks up the status of a RingOut. To make the same
 
 More information on this API is available here:
 
-https://developer.ringcentral.com/api-docs/latest/index.html#!#RefGetRingOutCallStatus
+[https://developer.ringcentral.com/api-docs/latest/index.html#!#RefGetRingOutCallStatus](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefGetRingOutCallStatus)
 
 ### How do I Upgrade the RingOut.asp Cancel API to the REST API?
 
@@ -42,7 +42,7 @@ To cancel a RingOut call using the REST API, use the following endpoint:
 
 More information on this API is available here:
 
-https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCancelRingOut
+[https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCancelRingOut](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCancelRingOut)
 
 ## Upgrading from FaxOut.asp API
 
@@ -54,4 +54,4 @@ To send a fax using the REST API, use the following endpoint:
 
 More information on this API is available here:
 
-https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCreateFaxMessage
+[https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCreateFaxMessage](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCreateFaxMessage)
