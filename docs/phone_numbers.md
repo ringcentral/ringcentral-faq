@@ -13,3 +13,7 @@ You can add Direct Numbers for your messages only extension. [Click here](http:/
 ### How do I add a Direct Number to a User?
 
 A Direct Number is a phone number that can be called without going through the auto-receptionist. [ Click here](http://success.ringcentral.com/articles/RC_Knowledge_Article/5-10-Adding-Extension-Direct-Numbers-via-Web) to read step-by-step instructions on how to add a direct number to a user extension as an administrator.
+
+### Why do I keep getting "EME-201 Address not valid" when updating E911 Address in Sandbox environment.
+
+The "EME-201 Address validation failed: Address not valid" error is returned from the sandbox environment on the "PUT restapi/v1.0/account/{accountId}/device/{deviceId}" endpoint because the environment not configured to perform address validation. This API needs to be used in the production environment and cannot be tested in the sandbox environment.
