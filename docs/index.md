@@ -20,6 +20,7 @@ Topics include:
 * [Call Log](call_log.md)
 * [Phone Numbers](phone_numbers.md)
 * [Notifications & Subscriptions](notifications_subscriptions.md)
+* [Mobile Apps](mobile.md)
 * [Custom Error Codes](errors.md)
 
 Additional developer resources include:

@@ -25,6 +25,7 @@ Current topics include:
 * [Notifications & Subscriptions](docs/notifications_subscriptions.md)
 * [Webhooks](docs/webhooks.md)
 * [Custom Error Codes](docs/errors.md)
+* [Upgrading from Legacy APIs](docs/legacy_ringout_faxout_apis.md)
 
 Please feel free to contribute by sending a pull request or make a request by creating an issue.
 
