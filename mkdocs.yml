@@ -23,3 +23,4 @@ pages:
 - ['notifications_subscriptions.md', 'FAQ', 'Notifications & Subscription']
 - ['webhooks.md', 'FAQ', 'Webhooks']
 - ['errors.md', 'FAQ', 'Errors']
+- ['legacy_ringout_faxout_apis.md', 'FAQ', 'Upgrading from Legacy APIs']
