@@ -16,7 +16,7 @@ https://developer.ringcentral.com/api-docs/latest/index.html#!#RefExtensionForwa
 
 ### How do I Upgrade the RingOut.asp Call API to the REST API?
 
-The legacy RingOut Call API performs a two-legged RingOut. To make the same call using the REST API, us e the following endpoint:
+The legacy RingOut Call API performs a two-legged RingOut. To make the same call using the REST API, use the following endpoint:
 
 `PUT /restapi/v1.0/account/{accountId}/extension/{extensionId}/ring-out`
 
@@ -45,3 +45,13 @@ More information on this API is available here:
 https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCancelRingOut
 
 ## Upgrading from FaxOut.asp API
+
+### How do I Upgrade the FaxOut.asp API to the REST API?
+
+To send a fax using the REST API, use the following endpoint:
+
+`POST /restapi/v1.0/account/{accountId}/extension/{extensionId}/fax`
+
+More information on this API is available here:
+
+https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCreateFaxMessage
