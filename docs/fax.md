@@ -86,7 +86,7 @@ However the delay between moment when a fax is created in the RingCentral databa
 
 ### When sending a fax, what does the API error "No call time. You did not have enough available Calling Credits to send this fax" mean?
 
-Sandbox accounts have a limited number of fax minutes per month. This API error means the account has run out of minutes for the current month. By default, sandbox accounts come with 1000 minutes per month. You can view your monthly minute usage and rollover date in the sandbox Online Account Portal. Login to the sandbox Online Account Portal at [https://service.devtest.ringcentral.com](https://service.devtest.ringcentral.com) with an administrator account and then go to `Billing` > `Service Plan`. Your usage for the current month is available under `Usage Info` and your rollover date is listed as `Next Billing Date`.
+Sandbox accounts have a limited number of fax minutes per month. This API error means the account has run out of minutes for the current month. By default, sandbox accounts come with 500 minutes per month. You can view your monthly minute usage and rollover date in the sandbox Online Account Portal. Login to the sandbox Online Account Portal at [https://service.devtest.ringcentral.com](https://service.devtest.ringcentral.com) with an administrator account and then go to `Billing` > `Service Plan`. Your usage for the current month is available under `Usage Info` and your rollover date is listed as `Next Billing Date`.
 
 ### When receiving a fax, why do a get a voice call with a fax tone?
 
