@@ -28,6 +28,10 @@ RingCentral provides a set of cover page styles that you can choose from. To use
 
 Just add each file as a MIME part. You can mix and match different MIME types. The Ruby fax helper has an `.add_file()` method that can be used in succession to add multiple files.
 
+### How can I resend or forward a fax?
+
+You can avoid uploading the same fax file multiple times by resending or forwarding a fax that has already been submitted to RingCentral. To resend a fax, call the fax endpoint with the `originalMessageId` property. To forward the fax, also add the new recipient's number as the `to` property. More information on resending faxes is available in the [API Reference](https://developers.ringcentral.com/api-docs/latest/index.html#!#ResendFaxMessage).
+
 ### What file types are supported for faxes?
 
 RingCentral supports 29 file types including PDF, TIFF, DOCX, DOC, XLSX, XLS, RTF, HTML, XML and many more. These are listed in the [API Developer Guide](https://developers.ringcentral.com/api-docs/) along with the accepted MIME types.
