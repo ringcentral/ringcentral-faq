@@ -12,19 +12,27 @@ General information about the RingCentral fax service can be found on the [End-U
 
 When you are sending a fax message through the FaxOut API, you can check the status of this transmission. Outgoing faxes pass through several workflow phases, so when you have just sent an API request `messageStatus` property `Queued` (this status is returned in the FaxOut API response). After some time (usually within couple of minutes) the status of the fax message will be changed to either `Sent` (which means that message was sent successfully) or to `Sending Failed`. You can call the Get Message or the Get Message List API to check the status of a particular message. The Get Message end point is provided in the `uri` property of the Send Fax response.
 
-### Can I set the cover page "To" value?
+### How can I set the cover page "To" value?
 
-Yes. The To attribute on the cover page is set two ways. If the `to.name` property is set in the request body, that value will be used on the cover page. If it is not set, the system will create a name by concatenating the `firstName` and `lastName` attributes of the address book contact with a matching `businessFax` number attribute.
+The To attribute on the cover page is set two ways. If the `to.name` property is set in the request body, that value will be used on the cover page. If it is not set, the system will create a name by concatenating the `firstName` and `lastName` attributes of the address book contact with a matching `businessFax` number attribute.
 
-### Can I send multiple files as one fax?
+### How can I disable fax cover page?
 
-Yes. Just add each file as a MIME part. You can mix and match different MIME types. The Ruby fax helper has an `.add_file()` method that can be used in succession to add multiple files.
+To disable the coverpage, set the `coverIndex` setting to `0` per the `GET /restapi/v1.0/dictionary/fax-cover-page` endpoint. This is described in the [`Send Fax` section of the API Reference](https://developers.ringcentral.com/api-docs/latest/index.html#!#RefCreateFaxMessage).
+
+### How can I customize fax cover page?
+
+RingCentral provides a set of cover page styles that you can choose from. To use an existing cover page style, retrieve a list of cover page styles by calling the `GET /restapi/v1.0/dictionary/fax-cover-page` endpoint and then use the index you want was the `coverIndex` value in the `/restapi/v1.0/account/~/extension/~/fax` endpoint. If you want to use your own custom cover page, disable the system cover page by setting `coverIndex` to `0` and then adding your own cover page as the first page of your fax message.
+
+### How can I send multiple files as one fax?
+
+Just add each file as a MIME part. You can mix and match different MIME types. The Ruby fax helper has an `.add_file()` method that can be used in succession to add multiple files.
 
 ### What file types are supported for faxes?
 
 RingCentral supports 29 file types including PDF, TIFF, DOCX, DOC, XLSX, XLS, RTF, HTML, XML and many more. These are listed in the [API Developer Guide](https://developers.ringcentral.com/api-docs/) along with the accepted MIME types.
 
-### Are inline images supported for HTML files?
+### Can I fax an HTML page with inline images?
 
 Inline images using Data URIs in the image tag and CSS properties are not supported yet. To use images in HTML files, please use links.
 
@@ -59,6 +67,16 @@ Yes. When a fax is sent to a RingCentral number, received faxes can be accessed 
 ### How long are my sent faxes stored?
 
 Sent faxes are stored for 30 days. Additional information is available in [RingCentral KB 1894](https://success.ringcentral.com/articles/RC_Knowledge_Article/2178). To retrieve your sent faxes, you can use the [RingCentral Message Store API](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefMessageList.html) or the [RingCentral Archiver](https://developer.ringcentral.com/app-gallery.html/app/312709020-312709020-7gufiGT3T3CCuCP37hMDaQ~4TkBPW7ETPi3SEzIj4gUXQ-1210?_ga=2.87486040.1924527089.1499293522-1174061982.1498551437) service.
+
+### How can I send a fax via curl?
+
+To use curl with the RingCentral API, you need to make two curl calls. One to retrieve an access token and another to use the access token to make the API call, sending a fax in here. To retrieve an access token, see the API Reference. If you have enabled OAuth 2.0 password flow, you can use the following curl command to retrieve an access token:
+
+curl -u '<my_client_id>:<my_client_secret>' -d 'grant_type=password&username=<my_username>&extension=<my_extension>&password=<my_password>' -X POST https://platform.devtest.ringcentral.com/restapi/oauth/token
+
+Once you have the response, you can use the `access_token` parameter in the response to make an fax call follows.
+
+curl -H 'Authorization: Bearer <my_access_token>' -F 'to=<my_to_number>' -F 'coverPageText=<my_cover_page_text>' -F attachment=@<my_filepath> -X POST https://platform.devtest.ringcentral.com/restapi/v1.0/account/~/extension/~/fax
 
 ## Technical Questions
 
