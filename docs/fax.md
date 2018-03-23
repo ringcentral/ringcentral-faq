@@ -72,11 +72,11 @@ Sent faxes are stored for 30 days. Additional information is available in [RingC
 
 To use curl with the RingCentral API, you need to make two curl calls. One to retrieve an access token and another to use the access token to make the API call, sending a fax in here. To retrieve an access token, see the API Reference. If you have enabled OAuth 2.0 password flow, you can use the following curl command to retrieve an access token:
 
-curl -u '<my_client_id>:<my_client_secret>' -d 'grant_type=password&username=<my_username>&extension=<my_extension>&password=<my_password>' -X POST https://platform.devtest.ringcentral.com/restapi/oauth/token
+`curl -u '<my_client_id>:<my_client_secret>' -d 'grant_type=password&username=<my_username>&extension=<my_extension>&password=<my_password>' -X POST https://platform.devtest.ringcentral.com/restapi/oauth/token`
 
 Once you have the response, you can use the `access_token` parameter in the response to make an fax call follows.
 
-curl -H 'Authorization: Bearer <my_access_token>' -F 'to=<my_to_number>' -F 'coverPageText=<my_cover_page_text>' -F attachment=@<my_filepath> -X POST https://platform.devtest.ringcentral.com/restapi/v1.0/account/~/extension/~/fax
+`curl -H 'Authorization: Bearer <my_access_token>' -F 'to=<my_to_number>' -F 'coverPageText=<my_cover_page_text>' -F attachment=@<my_filepath> -X POST https://platform.devtest.ringcentral.com/restapi/v1.0/account/~/extension/~/fax`
 
 ## Technical Questions
 
