@@ -8,7 +8,7 @@ No, you should not lose any events during a the OAuth access token refresh proce
 
 ### Where is the list of supported subscription event filters?
 
-You can find the list of WebHook / PubNub subscription event filters here: https://developer.ringcentral.com/api-docs/latest/index.html It's a very long page, please search for the keyword "Notifications Event Types"
+You can find the list of WebHook / PubNub subscription event filters here: https://developer.ringcentral.com/api-docs/latest/index.html. It's a very long page, so please search for the keyword "Notifications Event Types"
 
 ### How can I monitor a call queue?
 
@@ -16,4 +16,4 @@ In order to monitor a call queue, you need to monitor every agent in that call q
 
 ### I want to receive notifications for incoming calls and SMS messages, what should I do?
 
-You need to create a subscription with event filter "/restapi/v1.0/account/{accountId}/extension/{extensionId}/message-store" and "/restapi/v1.0/account/{accountId}/extension/extensionId}/presence?detailedTelephonyState=true" Here is some sample code: https://github.com/ringcentral/ringcentral-csharp-client#subscription
+You need to create a subscription with event filter `/restapi/v1.0/account/{accountId}/extension/{extensionId}/message-store` and `/restapi/v1.0/account/{accountId}/extension/extensionId}/presence?detailedTelephonyState=true` Here is some sample code: https://github.com/ringcentral/ringcentral-csharp-client#subscription
