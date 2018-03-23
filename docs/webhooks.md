@@ -16,11 +16,11 @@ This error means that there is a problemw ith your WebHook server URL. It must m
 
 ### What are verification token and validation token for RingCentral WebHook?
 
-To subscribe, the webhook URL must return a Validation-Token header when it is presented with one. When webhook subscription is created, it sends a request with validation-token in headers to webhook address. Webhook address should return a success request with validation-token in headers to finish webhook registration. If the server doesn't return validation-token the subscription creation will fail with 'WebHook is not reachable'.
+To subscribe, the webhook URL must return a `Validation-Token` header when it is presented with one. When webhook subscription is created, it sends a request with validation-token in headers to webhook address. Webhook address should return a success request with validation-token in headers to finish webhook registration. If the server doesn't return validation-token the subscription creation will fail with 'WebHook is not reachable'.
 
 When you create a new WebHook subscription, you can specify a verification token and keep a copy. Verification-Token is included in the notification messages, you can compare it with your own copy to make sure that the notificaiton is indeed from the WebHook subscription you created.
 
-### What are the requirements for RingCentral WebHook uri?
+### What are the requirements for RingCentral WebHook URI?
 
 The webhook URL service must meet the following requirements:
 
