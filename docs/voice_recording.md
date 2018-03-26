@@ -19,3 +19,11 @@ Yes, when a call recording is deleted from the system, the call-log record may s
 ### Is there a way to be notified when new recordings are available?
 
 Not at this time. We have notifications for calls via the presence event filter but not specifically for call recordings. To check for new call recordings, apps can poll the `call-log` endpoint with the `withRecording` query parameter set to `True`.
+
+### How to produce call recordings in sandbox for testing purpose?
+
+  To programmatically generate call recordings we have a RingCentral Demo App (in PHP) :        `https://github.com/anilkumarbp/Sample-Demo-to-Download-Call-Recordings`
+  
+### How long should I wait after call ended in order to download the call recording?
+
+   The call recording data should be available to download as soon as the active call ended.
