@@ -39,6 +39,13 @@ Deleting the RingOut is only available when the RingOut has been initiated and t
 * If you initiate a RingOut and immediately call the `DELETE` RingOut API Endpoint, the call would get hangup as long as the RingOut between the two parties is not connected (first leg has not been established) 
 * If the first leg of the call has been initiated, then the `DELETE` API will not hangup the call.
 
+### What does "Mailbox has no permission to this action" mean when trying to do ring out via API?
+
+This error occurs when you do not have a phone number ( Direct / Digital line ) assigned to the User / Extension. 
+See this link on how to set this up:`https://devcommunity.ringcentral.com/ringcentraldev/topics/how-to-make-sure-ringout-works`
+Free Accounts do not have this capability in Production and they will encounter this error.
+
+
 ## Integrations
 
 ### How can I create an Inbound Screen Pop for a CRM, Helpdesk or similar app?
