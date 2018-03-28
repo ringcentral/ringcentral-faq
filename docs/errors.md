@@ -110,3 +110,11 @@ These custom error codes are returned as part of an HTTP error response from the
 | 400               | SUB-508       | Invalid event filters: [${filters}]                                                                                           |
 | 400               | SUB-509       | findSubscription only works with PubNub transport type                                                                        |
 | 405               | SUB-511       | Action not allowed for APNS subscription                                                                                      |
+
+### How to deal with "Unauthorized for this grant type" issue?
+
+It probably means your app doesn't support password authorization flow. Please logon https://developer.ringcentral.com and confirm that your app has the following configuration: https://cloud.githubusercontent.com/assets/733544/18026560/b93e5356-6c7d-11e6-92a9-d35d28325e69.png
+
+### How should I handle "Service is overloaded, please retry later"?
+
+Usually this error code along with HTTP 503 status can be returned when traffic is switched between our datacenters. It usually can happen at night time when API traffic is minimal and doesn't last longer than 10-15 seconds. In case of such error API also returns Retry-After HTTP header which indicates when client should retry the original request.
