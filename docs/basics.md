@@ -79,12 +79,10 @@ The Analytics charts in Developer Portal are a tool to empower developers with t
 If you are not seeing the data for your most recent API requests, try switching the filter to "Past 24 Hours" for the Data View you are using. This typically will resolve that problem.
 
 **An important item to watch when reading any of these Analytics charts is the "Duration".** The reason this is important is because the starting and ending TIME of the report being viewed may not precisely match up with the time-period for which you are expecting to see data. Please pay close attention to these values when interpreting these Analytics charts.
-||||||| merged common ancestors
-=======
+
 
 ## Troubleshooting
 
 ### When should I retry when receiving a 503 CMN-211 `MaintenanceMode` "Service is overloaded, please retry later" error?
 
 The amount of time to wait before retrying the request is the number of seconds provided in the `Retry-After` HTTP response header. Often times, the retry after time is no longer than 10-15 seconds.
->>>>>>> upstream/master
