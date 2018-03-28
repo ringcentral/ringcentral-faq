@@ -30,6 +30,7 @@ Yes. All WebRTC communication using RingCentral is encrypted in transit.
 
 Yes. RingOut and WebRTC are two different ways to connect voice calls and both can be supported in single web app without authenticating each time. To do this using the [RingCentral JavaScript SDK](https://github.com/ringcentral/ringcentral-js) have the user authorize with the JavaScript SDK and then pass in the JavaScript SDK when instantiating the [RingCentral WebRTC WebPhone SDK](https://github.com/ringcentral/ringcentral-web-phone). An example implementaiton of this is the [RingCentral for Google browser app](https://developers.ringcentral.com/app-gallery.html/app/312709020-312709020-7gufiGT3T3CCuCP37hMDaQ~KiLR9gZ-TTS5mivQ8TGEqQ-1210).
 
-###  Which API is required permission WebRTC VOIP Calling?
-VOIP Calling is an App permission which is needed by WebRTC , this is not a REST API. You can refer to details of the WebRTC app in RingCentral github repo - `https://github.com/ringcentral/ringcentral-web-phone`. When you are building an app using the RingCentral ringcentral-web-phone github project, please make sure your app has VOIP calling permission.
+### What is the "VoIP Calling" Permission used for?
+
+`VoIP Calling` is an app permission which is needed by WebRTC. You can refer to details of RingCentral's WebRTC implementation in RingCentral GitHub repo for the WebRTC SDK: [https://github.com/ringcentral/ringcentral-web-phone](https://github.com/ringcentral/ringcentral-web-phone). When you are building an app using the RingCentral WebRTC SDK, please make sure your app has `VoIP Calling` permission.
 
