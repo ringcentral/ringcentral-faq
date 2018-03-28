@@ -32,8 +32,24 @@ Yes. To do send the SMS, authorized as the Operator Extension. To have multiple 
 
 No. You cannot send an SMS message from a toll-free number since these messages may not be properly routed through carrier networks. You must use a local number to specify it as the `from.phoneNumber` in the POST request to `/v1.0/account/{accountId}/extension/{extensionId}/sms`.
 
+### What is the maximum number of recipients allowed for MMS?
+
+According to https://developer.ringcentral.com/api-docs/latest/index.html#!#RefSMSMessages.html
+
+> Sending MMS to multiple recipients is supported via Batch request. The number of recipients is limited to 10
+
 ## Technical Questions
 
 ### How can I get a list of phone numbers that are SMS capable?
 
 First, retrieve a list of phone numbers from the authorized extension by making an API call to the `phone-number` endpoint, for example `account/~/extension/~/phone-number`. Then filter the resulting phone numbers against the `features` property for the value `SmsSender`.
+
+### How can I check SMS history?
+
+You can invoke the Message List API https://developer.ringcentral.com/api-docs/latest/index.html#!#RefMessageList.html with filter `messageType=SMS`.
+
+### What is the API endpoint for InternalMessages permission?
+
+It is for POST `/restapi/v1.0/account/~/extension/~/company-pager`
+
+Ref: https://developer.ringcentral.com/api-docs/latest/index.html#!#RefPagerMessages.html

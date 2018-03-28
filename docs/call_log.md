@@ -21,3 +21,33 @@ Call Log records have a property `result` but it's not currently possible to fil
 ### Why does the Active Calls API include finished calls?
 
 Active call logs API not only keeps the track of Active calls but also keeps the track of most recent calls. The recent calls stays in the Active Calls for 20-40 min.
+
+### I can only get call logs for the last 24 hours via API, what should I do?
+
+According to the documentation: https://developer.ringcentral.com/api-docs/latest/index.html#!#RefUserCallLog.html, there is a query parameter named `dateFrom`, its default value is current time minus 24 hours. You can set this parameter to a proper value top fix the issue.
+
+### How can I get call logs for all users and extensions?
+
+You can invoke the Company Call Log API: https://developer.ringcentral.com/api-docs/latest/index.html#!#RefCompanyCallLog.html
+
+And you need to authorize as the administrator of your RingCentral account.
+
+### What’s the proper way to iterate all pages of call logs?
+
+If there are more pages to fetch, there will be `navigation.nextPage` in the response data. So every time you fetch a new page, check the existance of `navigation.nextPage`. If it doesn't exist, it means you have fetched all the pages.
+
+### How do I know that two call log records are two legs of the same RingOut call instead of two separate calls?
+
+RingOut generates two call log records. Given two call log records, how do I know they are two legs of the same RingOut call or two separate calls?
+
+If the following is true
+
+```
+Outbound fromNumber == inbound toNumber
+&&
+Math.abs(outbound sessionId – inbound sessionId) is one of 1000, 2000, 3000, 4000.
+```
+
+Then you can assert that they are actually two legs of the same call instead of two separate calls.
+
+Solution above is unofficial but it works most of the time according to my experience.

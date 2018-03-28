@@ -24,4 +24,5 @@ pages:
 - ['webhooks.md', 'FAQ', 'Webhooks']
 - ['errors.md', 'FAQ', 'Errors']
 - ['sdks_programming.md', 'FAQ', 'SDKs & Programming']
+- ['integration.md', 'FAQ', 'Integration']
 - ['legacy_ringout_faxout_apis.md', 'FAQ', 'Upgrading from Legacy APIs']

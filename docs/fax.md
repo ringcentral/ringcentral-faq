@@ -131,3 +131,7 @@ If you intend the multiple fax numbers to be owned by and associated with multip
 ### How many faxes can I send per minute or per hour via the API?
 
 The throttling rates per API are determined by your [RingCentral API Usage Plan](https://developer.ringcentral.com/api-docs/latest/index.html#!#UsagePlan.html) and the API group for the API in question. The fax API is classified as a *Heavy* API which is set to 10 requests / minute by default so the fax rate is 10 per minute or 600 per hour. Higher rate usage plans may be avaiable to you depending on your use case. Create a support case if you wish to request an increase your sending rate.
+
+### How to test the email to fax feature in sandbox?
+
+It is possible to send faxes to a RingCentral user/extension number via email. Here is a tutorial: https://devcommunity.ringcentral.com/ringcentraldev/topics/using-the-email-to-fax-feature-with-your-sandbox-account
