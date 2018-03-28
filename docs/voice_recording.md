@@ -22,8 +22,8 @@ Not at this time. We have notifications for calls via the presence event filter 
 
 ### How to produce call recordings in sandbox for testing purpose?
 
-  To programmatically generate call recordings we have a RingCentral Demo App (in PHP) :        `https://github.com/anilkumarbp/Sample-Demo-to-Download-Call-Recordings`
+To programmatically generate call recordings, you can use the following community demo app (in PHP):        `https://github.com/anilkumarbp/Sample-Demo-to-Download-Call-Recordings`
   
 ### How long should I wait after call ended in order to download the call recording?
 
-   The call recording data should be available to download as soon as the active call ended.
+The call recording data should be available to download as soon as the active call ended.
