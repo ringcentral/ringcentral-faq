@@ -23,6 +23,7 @@ Topics include:
 * [Mobile Apps](mobile.md)
 * [Custom Error Codes](errors.md)
 * [SDKs & Programming](sdks_programming.md)
+* [Integration](integration.md)
 * [Upgrading from Legacy APIs](legacy_ringout_faxout_apis.md)
 
 Additional developer resources include:
