@@ -86,6 +86,25 @@ First of all, login https://developer.ringcentral.com using your **developer acc
 
 After you logged in your **developer account**, click "Sandbox Accounts" tab on left side of the page. Then you will see a list of your **sandbox accounts**, each has a "Rest password" link to reset its password. Click the link, and you will be prompt with a modal window with three input fields: In the first input field you enter your **developer account** password, in the remaining two input fields enter the new password for your **sandbox account**. Click "Submit" to change your **sandbox account** password.
 
+### Where should I turn to if I have a non-programming question about RingCentral?
+
+We have a forum for non-programming questions about RingCentral: http://community.ringcentral.com/ (And the counterpart for programming question is https://devcommunity.ringcentral.com/).
+
+You can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
+
+### Can I try the API quickly without writting any code?
+
+Yes. Please use our API Explorer: https://developer.ringcentral.com/api-explorer/latest/index.html
+
+### Where is the RingCentral API reference page?
+
+Here is the RingCentral API reference page: https://developer.ringcentral.com/api-docs/latest/index.html
+
+### How to enroll in RingCentral beta program?
+
+Some API endpoints are marked as "beta" and are only available to developers who have enrolled in RingCentral beta program.
+
+In order to enroll in RingCentral beta program, please send an email to devsupport@ringcentral.com with the name of your application.
 
 ## Troubleshooting
 
