@@ -21,3 +21,15 @@ Rate Limits is per API group. If your app is accessing multiple endpoints in the
 ### What happens if my app exceeds its rate limit?
 
 If you exceed the API rate limit, the server will return the 429 HTTP error status code indicating Too Many Requests. This means that the client is being throttled by the server due to high request rate. The `Retry-After` response header will specify the number of seconds that should elapse before your app can make requests again.
+
+### Where can I find the API call rate limit page?
+
+Here is the RingCentral API Rate Limit page which includes almost everything about rate limit: http://ringcentral-api-docs.readthedocs.io/en/latest/rate_limits/
+
+### What is RingCentral Data Retention Policy?
+
+Here is an article about RingCentral message storage and account data retention: https://success.ringcentral.com/articles/RC_Knowledge_Article/2178
+
+### How long are the call recordings retained?
+
+According to this article: https://success.ringcentral.com/articles/RC_Knowledge_Article/2178, call recordings are retained 90 days for Non-HIPAA Accounts and 30 days for HIPAA Accounts.
