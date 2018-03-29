@@ -92,7 +92,7 @@ We have a forum for non-programming questions about RingCentral: http://communit
 
 You can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
 
-### Can I try the API quickly without writting any code?
+### Can I try the API quickly without writing any code?
 
 Yes. Please use our API Explorer: https://developer.ringcentral.com/api-explorer/latest/index.html
 
