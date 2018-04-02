@@ -14,13 +14,13 @@ To retrieve the currently authorizing user's `extensionId`, make an API call to 
 
 Your developer account is what you used to login https://developer.ringcentral.com/.
 
-Your sandbox account could be found in "Sandbox Accounts" tab after you logged in https://developer.ringcentral.com/. It is normally in the form of a phone number.
+Your sandbox account could be found in "Sandbox Accounts" tab after you logged in https://developer.ringcentral.com/. It is normally in the form of a phone number. Your sandbox account is used to login to https://service.devtest.ringcentral.com/.
 
 ### What do RingCentral account and extension mean, respectively?
 
 In RingCentral API, we often see endpoints like `/restapi/v1.0/account/~/extension/~/...`. So what do RingCentral account and extension mean, respectively?
 
-In RingCentral's terminology, an account normally means a company, an exenstion normally means an user in a company. It's by no means official definition but you can get the overall idea.
+In RingCentral's terminology, an account means a company, and an extension often means an user in a company. There specialized extensions which are not mapped to specific users including call queues, paging only extensions and others.
 
 ### Is there any way to get phone number from contact name?
 
@@ -36,11 +36,11 @@ The official recommendation is to create a new app, add proper permissions and g
 
 ### Can I use my production credentials for sandbox or vice versa?
 
-Nope
+No, your production and sandbox accounts are different accounts and the credentials cannot be used interchangably.
 
-### Why can't my Canadian customers login my app?
+### Why can't my Canadian, Australian, European, or UK customers login my app?
 
-By default the app is only enabled for RingCentral US brand. Please send a request to enable RingCentral Canada for your app to devsupport@ringcentral.com
+By default the app is only enabled for RingCentral US brand or region. To request RingCentral enable your app for other regions, please send a request to devsupport@ringcentral.com
 
 ### What is an extension number and what is an extension ID? (What are the differences between extension number and extension ID?)
 
