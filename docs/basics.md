@@ -88,9 +88,9 @@ After you logged in your **developer account**, click "Sandbox Accounts" tab on 
 
 ### Where should I turn to if I have a non-programming question about RingCentral?
 
-We have a forum for non-programming questions about RingCentral: http://community.ringcentral.com/ (And the counterpart for programming question is https://devcommunity.ringcentral.com/).
+Use the forum for non-programming questions about RingCentral: http://community.ringcentral.com/ (And the counterpart for programming question is https://devcommunity.ringcentral.com/).
 
-You can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
+For more information, you can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
 
 ### Can I try the API quickly without writing any code?
 
@@ -98,7 +98,7 @@ Yes. Please use our API Explorer: https://developer.ringcentral.com/api-explorer
 
 ### Where is the RingCentral API reference page?
 
-Here is the RingCentral API reference page: https://developer.ringcentral.com/api-docs/latest/index.html
+The RingCentral API Reference is located on this page: https://developer.ringcentral.com/api-docs/latest/index.html
 
 ### How to enroll in RingCentral beta program?
 
