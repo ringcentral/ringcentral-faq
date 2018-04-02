@@ -33,7 +33,7 @@ There are two basic scenarios:
 
 RingCentral's legacy RingOut and FaxOut APIs require servers to support TLS version 1.2. Older browsers and API clients without TLS 1.2 support will no longer work. You can read more about our TLS requirements, how to test your browsers/API client/code for TLS 1.2 support, and language updates required to operate with our API in [RingCentral KB Article 8778](http://success.ringcentral.com/articles/RC_Knowledge_Article/8778). The RingCentral Connect Platform APIs will be updated at a future date.
 
-### How do I get my app into Production?
+### How do I get my app into Production? (How can I graduate my app?)
 
 The [RingCentral Developer Portal](https://developers.ringcentral.com) contains information on the graduation status and readiness of your application. In your app page, your app's status is presented on the `Status & Review` view with related API call information in the `Analytics` view. Summaries of both of these are presented at the top level `Dashboard` view. For step-by-step instructions:
 
@@ -80,6 +80,31 @@ If you are not seeing the data for your most recent API requests, try switching 
 
 **An important item to watch when reading any of these Analytics charts is the "Duration".** The reason this is important is because the starting and ending TIME of the report being viewed may not precisely match up with the time-period for which you are expecting to see data. Please pay close attention to these values when interpreting these Analytics charts.
 
+### I forget my sandbox account password, how to reset it?
+
+First of all, login https://developer.ringcentral.com using your **developer account**. If you forget your **developer account** password too, click "Forgot Password?" when it prompts you to enter password to reset your **developer account** password.
+
+After you logged in your **developer account**, click "Sandbox Accounts" tab on left side of the page. Then you will see a list of your **sandbox accounts**, each has a "Rest password" link to reset its password. Click the link, and you will be prompt with a modal window with three input fields: In the first input field you enter your **developer account** password, in the remaining two input fields enter the new password for your **sandbox account**. Click "Submit" to change your **sandbox account** password.
+
+### Where should I turn to if I have a non-programming question about RingCentral?
+
+We have a forum for non-programming questions about RingCentral: http://community.ringcentral.com/ (And the counterpart for programming question is https://devcommunity.ringcentral.com/).
+
+You can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
+
+### Can I try the API quickly without writing any code?
+
+Yes. Please use our API Explorer: https://developer.ringcentral.com/api-explorer/latest/index.html
+
+### Where is the RingCentral API reference page?
+
+Here is the RingCentral API reference page: https://developer.ringcentral.com/api-docs/latest/index.html
+
+### How to enroll in RingCentral beta program?
+
+Some API endpoints are marked as "beta" and are only available to developers who have enrolled in RingCentral beta program.
+
+In order to enroll in RingCentral beta program, please send an email to devsupport@ringcentral.com with the name of your application.
 
 ## Troubleshooting
 
