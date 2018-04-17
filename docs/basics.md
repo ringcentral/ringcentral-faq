@@ -106,6 +106,14 @@ Some API endpoints are marked as "beta" and are only available to developers who
 
 In order to enroll in RingCentral beta program, please send an email to devsupport@ringcentral.com with the name of your application.
 
+### What Support Channels does RingCentral have?
+
+RingCentral provides online, community-based support via (a) our an Online Community (https://devcommunity.ringcentral.com/ringcentraldev), (b) some Stack Overflow tags: ringcentral ( https://stackoverflow.com/questions/tagged/ringcentral) and glip (https://stackoverflow.com/questions/tagged/glip) and (c) our Glip community (https://glipped.herokuapp.com). We also provide free ticket-based, SLA_backed DevSupport (https://developer.ringcentral.com/support.html) and paid consulting via our Professional Services team (https://developer.ringcentral.com/support/services.html).
+
+### How can I contact Developer Support (DevSupport)?
+
+You can create a support ticket by clicking on the links at the bottom of the Support Page (https://developer.ringcentral.com/support.html) to open and view your cases. You can also send an email to devsupport@ringcentral.co
+
 ## Troubleshooting
 
 ### When should I retry when receiving a 503 CMN-211 `MaintenanceMode` "Service is overloaded, please retry later" error?
