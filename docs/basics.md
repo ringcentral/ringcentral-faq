@@ -108,7 +108,7 @@ In order to enroll in RingCentral beta program, please send an email to devsuppo
 
 ### What Support Channels does RingCentral have?
 
-RingCentral provides online, community-based support via (a) our an Online Community (https://devcommunity.ringcentral.com/ringcentraldev), (b) some Stack Overflow tags: ringcentral ( https://stackoverflow.com/questions/tagged/ringcentral) and glip (https://stackoverflow.com/questions/tagged/glip) and (c) our Glip community (https://glipped.herokuapp.com). We also provide free ticket-based, SLA_backed DevSupport (https://developer.ringcentral.com/support.html) and paid consulting via our Professional Services team (https://developer.ringcentral.com/support/services.html).
+RingCentral provides online, community-based support via (a) our an Online Community (https://devcommunity.ringcentral.com/ringcentraldev), (b) some Stack Overflow tags: `ringcentral` ( https://stackoverflow.com/questions/tagged/ringcentral) and `glip` (https://stackoverflow.com/questions/tagged/glip) and (c) our Glip community (https://glipped.herokuapp.com). We also provide free ticket-based, SLA_backed DevSupport (https://developer.ringcentral.com/support.html) and paid consulting via our Professional Services team (https://developer.ringcentral.com/support/services.html).
 
 ### How can I contact Developer Support (DevSupport)?
 
