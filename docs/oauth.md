@@ -2,6 +2,10 @@
 
 ## General
 
+### How do I use 3-legged OAuth?
+
+3-Legged OAuth is a form of OAuth that allows RingCentral to manage the authentication of users for an app provider. RingCentral supports the Authorization Code flow for apps that can protect a client secret and Implicit Grant flow for apps that cannot (e.g. a browser-only application). You can learn more about 3-legged OAuth in the [RingCentral API Reference Auth section](https://developer.ringcentral.com/api-docs/latest/index.html#!#RefAuth.html) and in the [RingCentral tutorials](https://ringcentral.github.io/tutorials/).
+
 ### Why does OAuth return "unauthorized for this grant type" error?
 
 The error "unauthorized for grant type" occurs when your application is attempting to use an OAuth grant type that it is not approved to use. This often happens when your app requires the Authorization Code Flow but is attempting to use the Password Flow. See below for information in implementing Authorization Code Flow. For more information see [this Developer Community article](https://devcommunity.ringcentral.com/ringcentraldev/topics/unauthorized-for-this-grant-type-error).
