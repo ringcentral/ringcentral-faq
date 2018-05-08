@@ -6,6 +6,10 @@
 
 RingCentral's official and community SDKs are available here https://developer.ringcentral.com/library/sdks.html. There are client SDKs in popular languages including C#, Java, JavaScript, PHP, Python, Ruby and Swift; a real-time communications WebRTC SDK; and a UI embeddable widget and React component library. All our official SDks are available on the RingCentral GitHub page: https://github.com/ringcentral. Documentation for SDKs are availabe in each GitHub repo.
 
+### Where is the SDK Documentation?
+
+SDK Documementation is co-located with the SDKs. For RingCentral official SDKs, you can find them on the GitHub repos for the specific SDKs. You can find a list of RingCentral official and community SDKs here: https://developer.ringcentral.com/library/sdks.html. Offical SDKs are hosted on our RingCentral GitHub account.
+
 ### Which official C# SDK should be used?
 
 https://github.com/ringcentral/ringcentral-csharp-client is the correct one
