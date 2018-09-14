@@ -33,7 +33,7 @@ Please feel free to contribute by sending a pull request or make a request by cr
 
 # Copyright
 
-Copyright &copy; 2016-2017 RingCentral. See [LICENSE][] for details.
+Copyright &copy; 2016-2018 RingCentral. See [LICENSE][] for details.
 
  [docs-readthedocs-svg]: https://img.shields.io/badge/docs-readthedocs-blue.svg
  [docs-readthedocs-link]: http://ringcentral-faq.readthedocs.org/
