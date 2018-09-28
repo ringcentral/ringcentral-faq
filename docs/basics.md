@@ -112,7 +112,7 @@ RingCentral provides online, community-based support via (a) our an Online Commu
 
 ### How can I contact Developer Support (DevSupport)?
 
-You can create a support ticket by clicking on the links at the bottom of the Support Page (https://developer.ringcentral.com/support.html) to open and view your cases. You can also send an email to devsupport@ringcentral.co
+You can create a support ticket by clicking on the links at the bottom of the Support Page (https://developer.ringcentral.com/support.html) to open and view your cases. You can also send an email to devsupport@ringcentral.com
 
 ## Troubleshooting
 
