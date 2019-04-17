@@ -1,33 +1,28 @@
-![RingCentral Developers](ringcentral-developers_1000x89.png)
+no_breadcrumb: true
 
 # RingCentral Developer FAQ
 
-This [RingCentral Developer](https://developers.ringcentral.com) FAQ provides answers to commonly asked questions covering our APIs and solution suite including how our APIs interact with our endpoint applications (mobile, desktop, and web).
+This FAQ provides answers to commonly asked questions covering our APIs and solution suite including how our APIs interact with our endpoint applications (mobile, desktop, and web).
 
-This covers the [RingCentral Connect Platform APIs](https://developers.ringcentral.com).
+## New to RingCentral?
 
-Topics include:
+If you are new to RingCentral, or working on the API for the first time, we recommend you consult the RingCentral Developer Guide to get started.
 
-* [RingCentral Basics](basics.md)
-* [API Usage Plans](api_usage_plan.md)
-* [Authentication & Authorization](oauth.md)
-* [Account Info](account.md)
-* [Voice via RingOut](voice_ringout.md)
-* [Voice via WebRTC](voice_webrtc.md)
-* [Voice Call Recordings](voice_recording.md)
-* [SMS](sms.md)
-* [Fax](fax.md)
-* [Call Log](call_log.md)
-* [Phone Numbers](phone_numbers.md)
-* [Notifications & Subscriptions](notifications_subscriptions.md)
-* [Mobile Apps](mobile.md)
-* [Custom Error Codes](errors.md)
-* [SDKs & Programming](sdks_programming.md)
-* [Integration](integration.md)
-* [Upgrading from Legacy APIs](legacy_ringout_faxout_apis.md)
+<a class="btn btn-primary btn-lg" href="https://developers.ringcentral.com/guide/">Visit the Developer Guide &raquo;</a>
 
-Additional developer resources include:
+In addition, the following resources may also be of assistance:
 
-* [Developer Guide](https://developer.ringcentral.com/api-docs/)
-* [API Explorer](https://developer.ringcentral.com/api-explorer/)
-* [SDKs](https://developer.ringcentral.com/library/sdks.html)
+* [Developer Guide](https://developers.ringcentral.com/guide/)
+* [API Explorer](https://developers.ringcentral.com/api-reference/)
+* [SDKs](https://developers.ringcentral.com/library/sdks.html)
+
+## Featured Topics
+
+Some of our more frequently visited FAQ topics include:
+
+* [Authorization](oauth.md)
+* [SMS](sms/)
+* [Call Log](call-log/)
+* [Webhooks](webhooks/)
+
+Browse all of our topics using the links to the left.

@@ -1,14 +1,31 @@
-# RingCentral Basics
+# RingCentral Development Basics
+
+## Getting Started
+
+### Where can I get started using the API?
+
+To get started using the RingCentral API, we recommend trying our [SMS Quick Start](https://developers.ringcentral.com/guide/sms/quick-start/). 
+
+### Can I try the API quickly without writing any code?
+
+Yes. Our API Reference allows anyone to [make calls to our API](https://developers.ringcentral.com/guide/basics/explorer) to observe the request and response easily. 
+
+### Where is the RingCentral API reference page?
+
+The RingCentral API Reference is located on the following URL:
+
+[https://developer.ringcentral.com/api-reference/](https://developer.ringcentral.com/api-reference/)
+
+### Where can I find SDKs, sample code and/or example apps for my language?
+
+SDKs, sample code and example apps available from RingCentral and community authors are linked from the RingCentral Developer Portal SDK page ([https://developer.ringcentral.com/library/sdks.html](https://developer.ringcentral.com/library/sdks.html)). For all official resources, developers can also go the RingCentral GitHub organization page at [https://github.com/ringcentral/](https://github.com/ringcentral/).
+
 
 ## General
 
 ### What can I accomplish with your APIs?
 
 The [RingCentral Platform](https://developers.ringcentral.com) offers a family of cloud APIs that integrate voice, SMS, and fax communications, as well as provides access to communications data. You can tightly integrate all business communications with your CRM application; send SMS messages and faxes straight from your business apps; seamlessly initiate phone calls and ring out from business applications; analyze call logs to create reports and feed dashboards. See the [RingCentral Developer Library](https://developer.ringcentral.com/api-and-docs.html) for further information.
-
-### Where can I find SDKs, sample code and/or example apps for my language?
-
-SDKs, sample code and example apps available from RingCentral and community authors are linked from the RingCentral Developer Portal SDK page ([https://developer.ringcentral.com/library/sdks.html](https://developer.ringcentral.com/library/sdks.html)). For all official resources, developers can also go the RingCentral GitHub organization page at [https://github.com/ringcentral/](https://github.com/ringcentral/).
 
 ### How do I send text messages to other colleagues within my company using RingCentral through the API?
 
@@ -86,25 +103,19 @@ First of all, login https://developer.ringcentral.com using your **developer acc
 
 After you logged in your **developer account**, click "Sandbox Accounts" tab on left side of the page. Then you will see a list of your **sandbox accounts**, each has a "Rest password" link to reset its password. Click the link, and you will be prompt with a modal window with three input fields: In the first input field you enter your **developer account** password, in the remaining two input fields enter the new password for your **sandbox account**. Click "Submit" to change your **sandbox account** password.
 
-### Where should I turn to if I have a non-programming question about RingCentral?
-
-Use the forum for non-programming questions about RingCentral: http://community.ringcentral.com/ (And the counterpart for programming question is https://devcommunity.ringcentral.com/).
-
-For more information, you can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
-
-### Can I try the API quickly without writing any code?
-
-Yes. Please use our API Explorer: https://developer.ringcentral.com/api-explorer/latest/index.html
-
-### Where is the RingCentral API reference page?
-
-The RingCentral API Reference is located on this page: https://developer.ringcentral.com/api-docs/latest/index.html
-
 ### How to enroll in RingCentral beta program?
 
 Some API endpoints are marked as "beta" and are only available to developers who have enrolled in RingCentral beta program.
 
 In order to enroll in RingCentral beta program, please send an email to devsupport@ringcentral.com with the name of your application.
+
+## Getting Help
+
+### Where should I turn to if I have a non-programming question about RingCentral?
+
+Use the forum for non-programming questions about RingCentral: http://community.ringcentral.com/ (And the counterpart for programming question is https://devcommunity.ringcentral.com/).
+
+For more information, you can visit RingCentral Customer Care Center: https://success.ringcentral.com where you can get all kinds of help including online chat and live call.
 
 ### What Support Channels does RingCentral have?
 

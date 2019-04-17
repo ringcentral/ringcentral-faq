@@ -3,26 +3,33 @@ site_url: https://developers.ringcentral.com
 site_favicon: favicon.ico
 repo_url: https://github.com/ringcentral/ringcentral-faq
 docs_dir: docs
-theme: readthedocs
-extra_css: [extra.css]
-extra_javascript: [fonts.js]
+theme:
+  name: moonstone
+  custom_dir: 'theme/'
+  fluid_layout: False
+  suppress_nextprev: true
+  shortcuts:
+    - foo
+
+#extra_css: [extra.css]
+#extra_javascript: [fonts.js]
 pages:
-# Introduction:
-- ['index.md', 'Overview', 'About']
-- ['basics.md', 'FAQ', 'RingCentral Basics']
-- ['oauth.md', 'FAQ', 'Authentication & Authorization']
-- ['account.md', 'FAQ', 'Account Info']
-- ['voice_ringout.md', 'FAQ', 'Voice via RingOut']
-- ['voice_webrtc.md', 'FAQ', 'Voice via WebRTC']
-- ['voice_recording.md', 'FAQ', 'Voice Call Recordings']
-- ['sms.md', 'FAQ', 'SMS']
-- ['fax.md', 'FAQ', 'Fax']
-- ['api_usage_plan.md', 'FAQ', 'API Usage Plan']
-- ['call_log.md', 'FAQ', 'Call Log']
-- ['phone_numbers.md', 'FAQ', 'Phone Numbers']
-- ['notifications_subscriptions.md', 'FAQ', 'Notifications & Subscription']
-- ['webhooks.md', 'FAQ', 'Webhooks']
-- ['errors.md', 'FAQ', 'Errors']
-- ['sdks_programming.md', 'FAQ', 'SDKs & Programming']
-- ['integration.md', 'FAQ', 'Integration']
-- ['legacy_ringout_faxout_apis.md', 'FAQ', 'Upgrading from Legacy APIs']
+- 'Overview': index.md
+- 'Basics': basics.md
+- 'Developer Console': console.md
+- 'Authentication & Authorization': oauth.md
+- 'Account Info': account.md
+- 'Voice and Telephony': voice_ringout.md
+- 'WebRTC': voice_webrtc.md
+- 'Call Recording': voice_recording.md
+- 'SMS': sms.md
+- 'Fax': fax.md
+- 'Call Log': call_log.md
+- 'Events and Notifications': notifications_subscriptions.md
+- 'Webhooks': webhooks.md
+- 'Integration': integration.md
+- 'Errors': errors.md
+- 'Usage Plans': api_usage_plan.md
+- 'Phone Numbers': phone_numbers.md
+- 'SDKs': sdks_programming.md
+
