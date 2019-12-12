@@ -22,7 +22,7 @@ To help you ensure compliance and offer you the best solution for your use case,
 Longcode numbers, also known as local phone numbers, are designated for non-marketing, persons-to-person, and small group text use cases.  CTIA guidelines require that these numbers not send to more than 200 unique numbers per day, no more than 1,000 messages per day, and that messages are responded to by the receivers.
 
 #### Toll-free numbers
-Toll-free numbers may be used for application-to-person usage, including commercial and marketing use cases.  There is no daily limit to toll-free SMS beyod the API rate limit, however you are still required to ensure compliance with the CTIA commercial SMS guidelines.
+Toll-free numbers may be used for application-to-person usage, including commercial and marketing use cases.  There is no daily limit to toll-free SMS beyond the API rate limit, however you are still required to ensure compliance with the CTIA commercial SMS guidelines.
 
 ### Can I send SMS as the main company phone number?
 
