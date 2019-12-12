@@ -14,7 +14,14 @@ Yes. RingCentral's SMS service supports Unicode and can send SMS in any or multi
 
 Sending SMS via the API is covered by our [Rate Limit Usage Plan](https://developer.ringcentral.com/api-docs/latest/index.html#!#APIRateLimits.html) for the *Medium* API group. There is also a current maximum rate of 50 SMS / extension per minute. To send more than this limit, you can set up multiple extensions, each with its own SMS-enabled phone number, either as a direct number or a digital line.
 
-In addition to the API rate limit, phone number use is governed by the FCC. Currently, RingCentral provides local phone numbers, aka long codes, for SMS and are typically used for non-marketing person-to-person and small-group text use cases. Based on our experience, we recommend sending up to 500 SMS text per long code per day. If you wish to send more than this, contact us our support team to discuss your use case.
+In addition to the API rate limit, SMS message usage must adhere to [CTIA guidelines](https://www.ctia.org/the-wireless-industry/industry-commitments/messaging-interoperability-sms-mms) or messages and numbers may be blocked by carriers.  
+
+To help you ensure compliance and offer you the best solution for your use case, RingCentral offers two primary types of numbers:
+
+#### Longcode numbers
+Longcode numbers, also known as local phone numbers, are designated for non-marketing, persons-to-person, and small group text use cases.  CTIA guidelines require that these numbers not send to more than 200 unique numbers per day, no more than 1,000 messages per day, and that messages are responded to by the receivers.
+
+Toll-free numbers may be used for application-to-person usage, including commercial and marketing use cases.  There is no daily limit to toll-free SMS beyod the API rate limit, however you are still required to ensure compliance with the CTIA commercial SMS guidelines.
 
 ### Can I send SMS as the main company phone number?
 
@@ -30,7 +37,7 @@ Yes. To do send the SMS, authorized as the Operator Extension. To have multiple 
 
 ### Can I send an SMS from a toll-free number?
 
-No. You cannot send an SMS message from a toll-free number since these messages may not be properly routed through carrier networks. You must use a local number to specify it as the `from.phoneNumber` in the POST request to `/v1.0/account/{accountId}/extension/{extensionId}/sms`.
+Yes!  To send SMS messages from a toll-free number, please contact [support](https://support.ringcentral.com/s/?language=en_US) to request your toll-free number be SMS enabled.  Once enabled, you may use this number to send messages within the United States.  Toll-free SMS are not subject to the 200 messages per day limit, but will incur charges for every message sent and received.  For more information, see our [SMS API Product page](https://developers.ringcentral.com/api-products/sms). 
 
 ### What is the maximum number of recipients allowed for MMS?
 
