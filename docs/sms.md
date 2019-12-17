@@ -30,7 +30,7 @@ Yes. To do send the SMS, authorized as the Operator Extension. To have multiple 
 
 ### Can I send an SMS from a toll-free number?
 
-No. You cannot send an SMS message from a toll-free number since these messages may not be properly routed through carrier networks. You must use a local number to specify it as the `from.phoneNumber` in the POST request to `/v1.0/account/{accountId}/extension/{extensionId}/sms`.
+Yes. Now RingCentral also Supports SMS from a Toll-Free Number.
 
 ### What is the maximum number of recipients allowed for MMS?
 
