@@ -57,6 +57,9 @@ body {
     padding: 14px;
   }
 
+  .dropdown-menu {
+      margin-top: 0;
+  }
 .dropdown-menu .nav-link {
   padding: 0;
 }
