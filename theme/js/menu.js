@@ -2,16 +2,18 @@ $(document).ready(function(){
     $(".dropdown").hover(
         // on mouse enter
         function(e) {
-            $('.dropdown-menu', this).stop(true,true).slideDown("400", 
+            let $dropdown = $('.dropdown-menu', this);
+            if (typeof $dropdown !== 'undefined' && !!$dropdown.stop)
+            $dropdown.stop(true,true).slideDown("400", 
                 function() { $(this).addClass('open'); }
             );
         },
         // on mouse leave
         function(e) {
-            $('.dropdown-menu', this).stop(true,true).slideUp("400",
-                function() { 
-                    $(this).removeClass('open'); 
-                }
+            let $dropdown = $('.dropdown-menu', this);
+            if (typeof $dropdown !== 'undefined' && !!$dropdown.stop)
+            $dropdown.stop(true,true).slideUp("400",
+                function() { $(this).removeClass('open'); }
             );
         }
     );   

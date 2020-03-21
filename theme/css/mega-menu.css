@@ -57,8 +57,8 @@ body {
     padding: 14px;
   }
 
-.dropdown-menu.open {
-  display: block !important;
+.dropdown-menu .nav-link {
+  padding: 0;
 }
 
 .top-mininav {
@@ -112,9 +112,14 @@ body {
   }
 
 .secondary-nav-cta-content {
-  width: 275px;
+  width: 90%;
   padding: 30px 20px 40px 30px;
   font-weight: 400
+}
+@media only screen and (max-width: 992px) {
+  .secondary-nav-cta-content {
+    display:none;
+  }
 }
 
 .secondary-nav-links {
