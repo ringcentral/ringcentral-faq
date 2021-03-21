@@ -26,7 +26,7 @@ The webhook URL service must meet the following requirements:
 
 - is available on the Internet
 - has a TLS / SSL enabled*
-- can respond within 1000 milliseconds with 200 OK
+- can respond within 3000 milliseconds with 200 OK
 - will respond with Validation-Token header on subscription
 
 http://ringcentral-api-docs.readthedocs.io/en/latest/notifications_webhooks/
