@@ -4,15 +4,29 @@ site_favicon: favicon.ico
 repo_url: https://github.com/ringcentral/ringcentral-faq
 docs_dir: docs
 theme:
-  name: moonstone
-  custom_dir: 'theme/'
-  fluid_layout: False
-  suppress_nextprev: true
-  shortcuts:
-    - foo
+    name: null
+    custom_dir: redirection/
 
-#extra_css: [extra.css]
-#extra_javascript: [fonts.js]
+extra:
+    urlRedirect:
+        basics/: spaces/11/index.html
+        console/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=developer+console
+        oauth/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=oauth
+        account/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=account
+        voice_ringout/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=ringout
+        voice_webrtc/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=webrtc
+        voice_recording/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=call+recording
+        sms/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=sms
+        fax/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=fax
+        call_log/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=call+log
+        notifications_subscriptions/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=subscriptions
+        webhooks/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=webhooks
+        integration/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=integration
+        errors/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=errors
+        api_usage_plan/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=api+usage+plan
+        phone_numbers/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=phone+numbers
+        sdks_programming/: search.html?c=144&includeChildren=true&type=question&sort=relevance&q=sdk
+
 pages:
 - 'Overview': index.md
 - 'Basics': basics.md
