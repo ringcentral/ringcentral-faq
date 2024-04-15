@@ -1,4 +1,5 @@
 name: Publish documentation 
+on: workflow_dispatch
 on:
   push:
     branches:
